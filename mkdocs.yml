@@ -5,6 +5,9 @@ theme:
   font:
     text: Merryweather Sans
     code: Red Hat Mono
+  icon:
+    logo: fontawesome/solid/gamepad
+    favicon: assets/favcion.ico
   palette:
     # Auto mode
     - media: "(prefers-color-scheme)"
@@ -29,3 +32,28 @@ theme:
       toggle:
         icon: material/eye
         name: To Auto Mode
+
+markdown_extensions:
+  # Emojis
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  # Annotations
+  - admonition
+  - pymdownx.details
+  # Code blocks
+  # Code blocks syntax highlighting
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  # Code block tabs
+  - pymdownx.tabbed:
+      alternate_style: true

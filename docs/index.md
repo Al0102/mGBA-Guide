@@ -1,17 +1,29 @@
-# Welcome to MkDocs
+# Overview
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Hi! Hi! :wave:
+ 
 
-## Commands
+=== "Hi"
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+    ```py title="hello.py" linenums="1" hl_lines="2-4"
+    if (True):
+         print("Hello World")
+    else:
+        print("No?")
+    ```
 
-## Project layout
+=== "Bye"
+    ```py title="bye.py" linenums="1" hl_lines="2-4"
+    if (True):
+         print("Bye World!")
+    else:
+        print("No?")
+    ```
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! note "Admonition"
+    
+    This is your first note!
+
+??? info "Collapsible"
+    
+    You can('t) see me!

@@ -62,6 +62,6 @@ markdown_extensions:
 
 
 # Footer
-  extra:
-    social:
+#   extra:
+#     social:
 # Add stuff here

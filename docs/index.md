@@ -1,5 +1,4 @@
-# Overview
-
+# About mGBA
 Hi! Hi! :wave:
  
 

@@ -1,5 +1,5 @@
 site_name: Setting Up MGBA, A Gameboy Advance Emulator
-site_url: https://localhost:5000
+site_url: https://al0102.github.io/mGBA-Guide/
 theme:
   name: material
   font:

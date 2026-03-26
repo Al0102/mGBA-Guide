@@ -32,6 +32,8 @@ theme:
       toggle:
         icon: material/eye
         name: To Auto Mode
+  features:
+    - navigation.footer
 
 markdown_extensions:
   # Emojis

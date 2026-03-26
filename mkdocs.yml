@@ -1,0 +1,31 @@
+site_name: Setting Up MGBA, A Gameboy Advance Emulator
+site_url: https://localhost:5000
+theme:
+  name: material
+  font:
+    text: Merryweather Sans
+    code: Red Hat Mono
+  palette:
+    # Auto mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/weather-night
+        name: To Dark Mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: To Light Mode
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/eye
+        name: To Auto Mode

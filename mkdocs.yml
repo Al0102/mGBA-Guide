@@ -59,3 +59,9 @@ markdown_extensions:
   # Code block tabs
   - pymdownx.tabbed:
       alternate_style: true
+
+
+# Footer
+  extra:
+    social:
+# Add stuff here

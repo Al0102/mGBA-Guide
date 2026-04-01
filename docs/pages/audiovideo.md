@@ -22,7 +22,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
 2. Select audio driver:
 
-    The audio driver in mGBA affects audio compatibility, latency, and playback stability.
+    Affects audio compatibility, latency, and playback stability.
 
     ![mGBA main screen](../assets/audiovideo/audiovideo-3.gif){ width="600" }
 
@@ -44,7 +44,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
 3. Adjust audio buffer:
 
-    Adjusting the buffer size can affect the balance between audio responsiveness and audio stability.
+    Affects the balance between audio responsiveness and audio stability.
 
     ![mGBA main screen](../assets/audiovideo/audiovideo-4.gif){ width="600" }
 
@@ -62,7 +62,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
 4. Adjust sample rate:
 
-    Sample rate affects how detailed and clear the audio sounds during gameplay.
+    Affects how detailed and clear the audio sounds during gameplay.
 
     ![mGBA main screen](../assets/audiovideo/audiovideo-5.gif){ width="600" }
 

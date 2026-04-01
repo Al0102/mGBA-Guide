@@ -12,8 +12,8 @@ nav:
 theme:
   name: material
   font:
-    text: Merryweather Sans
-    code: Red Hat Mono
+    text: Lexend
+    code: Lexend
   icon:
     logo: fontawesome/solid/gamepad
     favicon: assets/favcion.ico

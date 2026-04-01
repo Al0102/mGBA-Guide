@@ -42,9 +42,9 @@ This guide assumes a basic understanding of:
 
 These are the main ideas this guide goes over:
 
-- [Getting Started]()
-- [Using a Controller/Keyboard]()
-- [Configuring Audio/Video]()
+- [Getting started]()
+- [Configuring controls]()
+- [Configuring audio and video]()
 
 ## Annotations
 

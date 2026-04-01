@@ -53,6 +53,9 @@ markdown_extensions:
   # Contents navigation
   - toc:
       toc_depth: 3
+  # Annotations
+  - admonition
+  - pymdownx.details
   # Emojis
   - attr_list
   - pymdownx.emoji:
@@ -61,9 +64,6 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
-  # Annotations
-  - admonition
-  - pymdownx.details
   # Code blocks
   # Code blocks syntax highlighting
   - pymdownx.highlight:

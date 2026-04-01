@@ -21,9 +21,9 @@ This guide is intended for those:
 
 ## Knowledge
 
-This guide assumes a basic understanding of:  
+This guide assumes an understanding of:  
 
-- desktop environments (such as opening files), 
+- how to use desktop environments (opening, extracting, and running files/folders), 
 - video games   
 
 !!! Note "Check!"

@@ -2,7 +2,7 @@
 
 Welcome! :wave: This guide will walk through getting started with the [**mGBA**](https://mgba.io/) emulator. Our goal is to configure some common settings including setup for ROMs, controllers, audio, and more.
 
-[**mGBA**](https://mgba.io/) is a popular desktop emulator for the [**GameBoy Advance (GBA)**](https://en.wikipedia.org/wiki/Game_Boy_Advance) system. It offers a relatively simple setup, as well as many options for configuring it to suit more specific needs.
+[**mGBA**](https://mgba.io/) is a popular desktop emulator for the [**Game Boy Advance (GBA)**](https://en.wikipedia.org/wiki/Game_Boy_Advance) system. It offers a relatively simple setup, as well as many options for configuring it to suit more specific needs.
  
 ## Intended users
 

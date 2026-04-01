@@ -4,14 +4,14 @@ Welcome! :wave: This guide will walk through getting started with the [**mGBA**]
 
 [**mGBA**](https://mgba.io/) is a popular desktop emulator for the [**GameBoy Advance (GBA)**](https://en.wikipedia.org/wiki/Game_Boy_Advance) system. It offers a relatively simple setup, as well as many options for configuring it to suit more specific needs.
  
-# Intended Users
+## Intended users
 
 This guide is intended for those:
 
 - new users wanting to get started with [**mGBA**](https://mgba.io/)
 - users who want to configure [**mGBA**](https://mgba.io/) beyond the default settings
 
-# Requirements
+## Requirements
 
 [**mGBA**](https://mgba.io/) is lightweight, but there are couple things ot have before you get started.
 
@@ -31,14 +31,14 @@ This guide assumes a basic understanding of:
     Do you know these words?  
     [File manager](https://en.wikipedia.org/wiki/File_manager), [ROM file](https://en.wikipedia.org/wiki/ROM_image), [Emulator](https://en.wikipedia.org/wiki/Emulator)
 
-## Software Requirements
+## Software requirements
 
 - A Windows, MacOS, or Linux system
 
 
 >    This guide is uses Windows 11, but mGBA and its configurations are largely consistent across the available systems
 
-## Guide Contents
+## Guide contents
 
 These are the main ideas this guide goes over:
 

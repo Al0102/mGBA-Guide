@@ -14,9 +14,9 @@ This section will be divided into two parts  (audio settings and video settings)
     
     > Tools > Settings > Audio/Video
 
-    ![mGBA main screen](../assets/audiovideo/audiovideo-1.gif){ width="600" }
+    ![mGBA main screen](../assets/audiovideo/audiovideo-1.gif){ width="80%" }
 
-    ![mGBA main screen](../assets/audiovideo/audiovideo-2.png){ width="600" }
+    ![mGBA main screen](../assets/audiovideo/audiovideo-2.png){ width="80%" }
 
 ### Audio Settings
 
@@ -24,7 +24,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Affects audio compatibility, latency, and playback stability.
 
-    ![mGBA main screen](../assets/audiovideo/audiovideo-3.gif){ width="600" }
+    ![mGBA main screen](../assets/audiovideo/audiovideo-3.gif){ width="80%" }
 
     **SDL** is a widely used multimedia library designed for games and emulators. It communicates directly with the operating system’s audio system and is generally the most stable and compatible option.
 
@@ -46,7 +46,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Affects the balance between audio responsiveness and audio stability.
 
-    ![mGBA main screen](../assets/audiovideo/audiovideo-4.gif){ width="600" }
+    ![mGBA main screen](../assets/audiovideo/audiovideo-4.gif){ width="80%" }
 
     The **lower** the buffer size, the faster sound will respond to what happens in-game but it may cause crackling or popping if your computer can't keep up.
 
@@ -64,7 +64,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Affects how detailed and clear the audio sounds during gameplay.
 
-    ![mGBA main screen](../assets/audiovideo/audiovideo-5.gif){ width="600" }
+    ![mGBA main screen](../assets/audiovideo/audiovideo-5.gif){ width="80%" }
 
     The sample rate setting in mGBA determines how many times per second audio is measured and reproduced. A higher sample rate captures more detail in the sound, which can result in clearer and more accurate audio playback.
 
@@ -75,7 +75,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Controls how loud the game audio is played.
 
-    ![mGBA main screen](../assets/audiovideo/audiovideo-6.png){ width="600" }
+    ![mGBA main screen](../assets/audiovideo/audiovideo-6.png){ width="80%" }
 
     The volume slider in mGBA controls how loud the game audio is during normal gameplay. You can increase the volume to make sound effects and music louder, or decrease it for quieter playback or when multitasking.
 
@@ -86,7 +86,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Controls how audio is played when multiple games are connected.
 
-    ![mGBA main screen](../assets/audiovideo/audiovideo-7.png){ width="600" }
+    ![mGBA main screen](../assets/audiovideo/audiovideo-7.png){ width="80%" }
 
     The selected multiplayer sound option determines which emulator window(s) will play audio when multiple game instances are running, allowing you to choose whether sound comes from one active window or from all connected windows simultaneously.
 

@@ -2,9 +2,9 @@ site_name: Setting Up MGBA, A Gameboy Advance Emulator
 site_url: https://al0102.github.io/mGBA-Guide/
 nav:
   - Home: index.md
-  - Getting Started: pages/getting-started.md
-  - Using Controller/Keyboard: pages/using-controller-keyboard.md
-  - Configuring Audio/Video: pages/configuring-audio-video.md
+  - Getting started: pages/getting-started.md
+  - Configuring controls: pages/configuring-controls.md
+  - Configuring audio and video: pages/configuring-audio-and-video.md
   - Troubleshooting: pages/troubleshooting.md
   - Glossary: pages/glossary.md
 
@@ -42,9 +42,17 @@ theme:
         icon: material/eye
         name: To Auto Mode
   features:
+    # navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    # footer
     - navigation.footer
 
 markdown_extensions:
+  # Contents navigation
+  - toc:
+      toc_depth: 3
   # Emojis
   - attr_list
   - pymdownx.emoji:

@@ -2,9 +2,9 @@ site_name: Setting Up MGBA, A Gameboy Advance Emulator
 site_url: https://al0102.github.io/mGBA-Guide/
 nav:
   - Home: index.md
-  - Getting started: pages/getting-started.md
-  - Configuring controls: pages/configuring-controls.md
-  - Configuring audio and video: pages/configuring-audio-and-video.md
+  - Getting Started: pages/getting-started.md
+  - Configuring Controller & Keyboard: pages/configuring-controls.md
+  - Configuring Audio & Video: pages/audiovideo.md
   - Troubleshooting: pages/troubleshooting.md
   - Glossary: pages/glossary.md
 

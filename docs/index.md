@@ -1,4 +1,4 @@
-# Introduction
+# Introduction  
 
 Welcome! :wave: This guide will walk through getting started with the [**mGBA**](https://mgba.io/) emulator. Our goal is to configure some common settings including setup for ROMs, controllers, audio, and more.
 
@@ -15,47 +15,60 @@ This guide is intended for those:
 
 [**mGBA**](https://mgba.io/) is lightweight, but there are couple things ot have before you get started.
 
+!!! Note "Check!"
+    
+    This guide expects that you already have your own way of obtaining game ROMs.
+
 ## Knowledge
 
 This guide assumes a basic understanding of:  
 
-- desktop environments  
-- game systems  
+- desktop environments (such as opening files), 
+- video games   
 
-!!! Note "Knowledge Check!"
+!!! Note "Check!"
     
     Do you know these words?  
     [File manager](https://en.wikipedia.org/wiki/File_manager), [ROM file](https://en.wikipedia.org/wiki/ROM_image), [Emulator](https://en.wikipedia.org/wiki/Emulator)
 
 ## Software Requirements
 
-- 
+- A Windows, MacOS, or Linux system
 
-!!! note "Operating system"
 
-    This guide is uses Windows 11, but mGBA and its configurations are largely consistent across the available systems
+>    This guide is uses Windows 11, but mGBA and its configurations are largely consistent across the available systems
 
-=== "Hi"
+## Guide Contents
 
-    ```py title="hello.py" linenums="1" hl_lines="2-4"
-    if (True):
-         print("Hello World")
-    else:
-        print("No?")
-    ```
+These are the main ideas this guide goes over:
 
-=== "Bye"
-    ```py title="bye.py" linenums="1" hl_lines="2-4"
-    if (True):
-         print("Bye World!")
-    else:
-        print("No?")
-    ```
+- [Getting Started]()
+- [Using a Controller/Keyboard]()
+- [Configuring Audio/Video]()
 
-!!! note "Admonition"
+## Annotations
+
+Occasionally, a note block will be used to get your attention.  
+These vary from potentially useful tips to important warnings.  
+Here are the types of note blocks, from most to least important:
+
+!!! Danger
+
+    Contains information about potential errors or mistakes.
+!!! Warning
+
+    Contains a note that should be read before continuing past.
+
+!!! Success
+
+    Contains a message about what a successful task looks like.
+
+!!! Note "Check!"
     
-    This is your first note!
+    Contains a quick overview of where you should be after completing a step or task.
 
-??? info "Collapsible"
-    
-    You can('t) see me!
+!!! Info
+
+    Contains additional tips or information about a section.
+
+

@@ -13,11 +13,11 @@ This guide is intended for those:
 
 ## Requirements
 
-[**mGBA**](https://mgba.io/) is lightweight, but there are couple things ot have before you get started.
+[**mGBA**](https://mgba.io/) is lightweight, but there are couple things to have before you get started.
 
-!!! Note "Check!"
-    
-    This guide expects that you already have your own way of obtaining game ROMs.
+!!! Warning   
+
+    This guide does not go over how or where to obtain game ROMs.
 
 ## Knowledge
 

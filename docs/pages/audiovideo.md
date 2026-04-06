@@ -97,8 +97,83 @@ This section will be divided into two parts  (audio settings and video settings)
 
 6. Select display driver:
 
+    Controls how graphics are rendered on screen.
+
+    ![video](../assets/audiovideo/audiovideo-8.gif){ width="90%" }
+
+    **Software (Qt)** renders graphics using your computer’s processor instead of the graphics card. This option prioritizes compatibility over performance.
+
+    ??? Info "Reasons To Choose Software (Qt)"
+        - OpenGL causes graphical issues
+        - You are using older hardware
+        - You would like maximum compatibility
+
+    **OpenGL** uses your computer’s graphics hardware to render images efficiently and smoothly. This option generally provides the best performance on modern systems.
+
+    ??? Info "Reasons To Choose OpenGL"
+        - You want good performance
+        - Your computer has modern graphics hardware
+        - You experience smooth gameplay with no visual issues
+
+    **OpenGL (force version 1.x)** forces mGBA to use an older version of OpenGL for compatibility with older graphics drivers. This can help if standard OpenGL does not work properly.
+
+    ??? Info "Reasons To Choose OpenGL"
+        - OpenGL fails to start
+        - You have an older graphics driver
+        - Standard OpenGL is causing graphical errors
+
 7. Adjust frameskip:
+
+    Controls how many frames are skipped to improve performance.
+
+    ![video](../assets/audiovideo/audiovideo-9.png){ width="90%" }
+
+    Frameskip in mGBA allows the emulator to skip rendering some visual frames in order to maintain smooth gameplay performance. By drawing fewer frames, the emulator reduces the workload on your computer, which can help prevent slowdowns on less powerful systems. While higher frameskip values can improve performance, they may also make motion appear less smooth or slightly choppy.
+
+    ??? Info "Recommended Frameskip"
+        - **0 (Off)** for best visual quality on most modern computers
+        - **1-2** is helpful if gameplay feels slow or laggy
+        - **3+** is only recommended for very low perfomance systems
 
 8. Set video scaling and image processing:
 
-9. Apply settings:
+    Controls how the game image is scaled, smoothed, and displayed on your screen.
+
+    ![video](../assets/audiovideo/audiovideo-10.png){ width="90%" }
+
+    **Lock Aspect Ratio** keeps the game’s original screen proportions so the image does not appear stretched or squished.
+
+    ??? Info "Reasons To Lock Aspect Ratio"
+        - You want the game to look natural and undistorted
+        - You notice the image looks too wide or too tall
+        - You want visuals closest to original hardware
+
+    **Force Integer Scaling** scales the image using whole-number multiples (2x, 3x, 4x) to keep pixels sharp and evenly sized.
+
+    ??? Info "Reasons To Force Integer Scaling"
+        - You want clean pixel graphics
+        - You prefer an authentic retro appearance
+        - You would like to avoid uneven or blurry pixels
+
+    **Interframe Blending** blends consecutive frames together to create smoother-looking motion, similar to motion blur.
+
+    ??? Info "Reasons To Interframe Blend"
+        - You want a smoother motion appearance
+        - You find fast movement looks too sharp or flickery
+        - You prefer a softer visual effect
+
+    **Bilinear Filtering** smooths the edges of pixels when the image is enlarged, reducing the blocky look of low-resolution graphics.
+
+    ??? Info "Reasons To Bilinearly Filter"
+        - You prefer smoother, less pixelated visuals
+        - You find sharp pixels unappealing
+        - You want a softer modern appearance
+
+??? Note "Saving Your Settings"
+    Make sure you hit **apply** to save your settings.
+
+    ![video](../assets/audiovideo/audiovideo-11.png){ width="90%" }
+
+
+!!! Success "Success"
+    Your video settings have been configured and graphics should now display smoothly during gameplay. Some settings may require a bit of trial and error to find what works best for your system.

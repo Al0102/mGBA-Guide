@@ -27,52 +27,58 @@ The first step is to install the emulator, if you do not already have it.
 
         If you are unsure, you can usually find this information in your system settings.
 
-    ### Using the portable version
+    === "Using the portable version"
 
-    The *.7z archives* are the *portable* versions. These hold everything compressed as a 7-Zip (similar to a *.zip* file).
-    This is the recommended way to install mGBA, as you only need to **extract** the files to get started.
-    This allows you to choose where to store it on your computer, and also lets you keep your game files with mGBA.  
+        The *".7z archives"* are the *portable* versions. These hold everything compressed as a 7-Zip (similar to a *.zip* file).
+        This is the recommended way to install mGBA, as you only need to **extract** the files to get started.
+        This allows you to choose where to store it on your computer, and also lets you keep your game files with mGBA.  
 
-    Many newer versions of Windows can extract 7-zip without additional setup,
-    but some systems may need a separate extractor from the [**7-zip site**](https://7-zip.link/download.html).  
+        Many newer versions of Windows can extract 7-zip without additional setup,
+        but some systems may need a separate extractor from the [**7-zip site**](https://7-zip.link/download.html).  
 
-    !!! Warning
+        !!! Warning
 
-        It is important to store mGBA in a *"common folder"*
-        (does not require administrator privileges to access).
+            It is important to store mGBA in a *"common folder"*
+            (does not require administrator privileges to access).
 
-        We recommend storing it in a new folder in *Documents* or on your *Desktop*
-    
-    1. **Click** on the `Windows (64-bit, portable .7z archive)` option to download it.
-    2. **Extract** the files.    
-        1. **Right-click** on the archive (`mGBA-xx.xx.xx-winxx.7z`).
-        2. **Click** either:
+            We recommend storing it in a new folder in *Documents* or on your *Desktop*
+        
+        1. **Click** on the `Windows (64-bit, portable .7z archive)` option to download the files.
+        2. **Extract** the files.    
 
-            > Extract all
+            1. **Right-click** on the archive (`mGBA-xx.xx.xx-winxx.7z`).
+            2. **Click** either:
 
-            or
+                > Extract all
 
-            > Extract with 7-zip
+                or
 
-        3. **Choose** a valid location to put the files.
+                > Extract with 7-zip
 
-    ![Extracting mGBA portable](../assets/getting-started/extract-1-2.gif){ width=90%  }
+            3. **Choose** a valid location to put the files.
+            4. **Click** *"Extract"*.
 
-    !!! Success
+            ![Extracting mGBA portable](../assets/getting-started/extract-1-2.gif){ width=90% }
 
-        The contents of the extracted folder should look like this.
+        ??? Success
 
-        ![mGBA portable folder](../assets/getting-started/mGBA-portable.png){ width=90% }
+            The contents of the extracted folder should look like this.
 
+            ![mGBA portable folder](../assets/getting-started/mGBA-portable.png){ width=90% }
 
-    ### Using the installer
+    === "Using the installer"
 
-    The *"installer .exe"* may be useful for people less comfortable with using their file systems.
-    
-    
-    1. **Download** and run the *install wizard* to install mGBA to your computer as an application.
+        The *"installer .exe"* may be useful for people less comfortable using their file systems.  
+        This is an application known as an *"install wizard"*, that will help you install mGBA step-by-step.
+        
+        1. **Click** on the `Windows (64-bit, installer .exe)` option to download the installer.
+        2. **Run** the install wizard (`mGBA-0.10.5-win64-installer.exe`).
+        3. **Follow** the prompts on screen.
 
+        ??? Success
 
+            Once installed, the application should exist at the chosen install location.  
+            A *Desktop* or *Start Menu* shortcut may also created if this was chosen during the install process.  
 
 3. **Run** mGBA.exe.
     If the portable version was used, this will be in the extracted folder.  
@@ -92,30 +98,32 @@ The first step is to install the emulator, if you do not already have it.
 
     The app should look something like this once opened.
 
-    ![mGBA main screen](../assets/getting-started/homescreen.png){ width=80% 
+    ![mGBA main screen](../assets/getting-started/homescreen.png){ width=90% }
 
-## Storing ROMs
+## Using ROMs
 
 ROM stands for *Read-Only Memory*, which refers to data that cannot be modified - often stored in
 cartridge or disc form. In the context of games and emulation, it also refers to copies or "dumps" of the game
 that was originally on these cartridges.  
 
-mGBA is compatible with the following types of ROMs:  
+mGBA is compatible with the following types of games:  
 
-- Game Boy (*.gb* files).  
-- Game Boy Color (*.gbc* files).  
-- Game Boy Advance (*.gba*).  
+- [**Game Boy**](https://en.wikipedia.org/wiki/Game_Boy) (*.gb* files).  
+- [**Game Boy Color**](https://en.wikipedia.org/wiki/Game_Boy_Color) (*.gbc* files).  
+- [**Game Boy Advance**](https://en.wikipedia.org/wiki/Game_Boy_Advance) (*.gba* files).  
+- [**Super Game Boy**](https://en.wikipedia.org/wiki/Super_Game_Boy) (*.sgb* files).
 
-The next step is to find a ROM(s) and figure out where to keep them on our computer.  
+The next step is to find a ROM(s) and load it with mGBA.  
 
 1. **Download** a ROM.  
 
     Getting ROMs can be done in a couple ways:  
 
       - **Acquire** them online.
-      - **Upload** them from a physical copy of the game.
+      - **Upload** them from a physical copy of the game
+      (also known as [ripping ROMs](https://wiki.provenance-emu.com/using-provenance/roms/ripping-roms#cartridge-dumping)).
 
-    !!! Danger
+    ??? Danger "Be careful when downloading ROMs online"
 
         Downloading ROMs online can be risky and can be illegal depending on where you live!  
         
@@ -125,11 +133,6 @@ The next step is to find a ROM(s) and figure out where to keep them on our compu
         - **Cross-check** ROM sites with communities such as [r/Roms on Reddit](https://www.reddit.com/r/Roms/wiki/index/).  
         - **Stay away** from any buttons or links that do not match the look of the rest of the site.  
 
-    !!! Info
-
-        Learn more about uploading (also known as "ripping") game ROMS
-        [here](https://wiki.provenance-emu.com/using-provenance/roms/ripping-roms#cartridge-dumping).
-
 2. **Move** the ROM files to a folder of your choosing.
 
     In your file explorer, drag the *.gb*, *.gba*, or *.gbc* file
@@ -138,7 +141,7 @@ The next step is to find a ROM(s) and figure out where to keep them on our compu
 
     If using the portable version, we recommend creating a *"Games"* folder in the same location as *"mGBA.exe"*.
 
-    !!! Note
+    ??? Warning "Save files are stored in the same folder as the ROM"
 
         By default, mGBA will also store your game save progress as *".sav"* files in the same folder as the ROM.  
 
@@ -146,12 +149,81 @@ The next step is to find a ROM(s) and figure out where to keep them on our compu
 
         > Tools > Settings > Interface > Path
 
-## Loading ROMs
+3. **Run** mGBA.exe.
 
-The next step is to use load these ROMs to play the games stroed in them.
-There are a couple ways to do this.
+4. **Load** the ROM.
 
-### Loading individual ROMs
+    Using the ROM files, there are a couple options for loading these into mGBA.  
 
+    ??? Info "Quick start for previously loaded games"
+
+        Once a game has been opened, you can restart it without directly loading the file again.
+
+        > File > Recent > *Name of your ROM*
+
+    === "Loading individual ROMs"
+
+        One option is to directly start a single game.
+
+        1. **Navigate** to the *"Load ROM..."* option.
+
+            > File > Load ROM...
+
+            This should open the *File Explorer*.
+
+            ![Load ROM](../assets/getting-started/load-rom.png){ width=90%}
+
+            !!! Info "You can also use a shortcut for this."
+            
+                **Enter** <kbd>Ctrl</kbd> + <kbd>O</kbd> on your keyboard to quickly load a ROM.
+        
+        2. **Choose** a ROM.
+            
+            In the file explorer, navigate to the folder from *step 2* and click on the ROM to select it.
+
+            ![Load ROM file](../assets/getting-started/load-rom-file.gif){ width=90%}
+
+
+    === "Loading multiple ROMs"
+
+
+!!! Success
+
+    "Your game should now be running."
+
+    !!! Warning
+
+## Exiting a game
+
+To turn off the game, you can either:
+
+    - **close** mGBA, or
+    - **shutdown** only the game.
+
+This section highlights the second option.
+
+!!! Warning "Remember to save your progress before exiting."
+
+1. **Navigate** to the *Emulation* tab.
+2. **Click** *Shutdown*.
+
+    > Emulation > Shutdown
+
+    ![Shutting down a game](../assets/getting-started/shutdown.png){ width=90% }
+
+!!! Success
+
+    This should bring you back to mGBA's home screen, where you can load another game.
 
 ## Conclusion
+
+By finishing this section, you should know how to do the following:  
+
+- [x] Install mGBA.  
+- [x] Safely store ROMs.  
+- [x] Start a game ROM.  
+- [x] Shutdown a game ROM.
+
+Congratulations :tada:, you now know how to set up and play games with mGBA!  
+
+Go to the [next section](audiovideo.md) to learn

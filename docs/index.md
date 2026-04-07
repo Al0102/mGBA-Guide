@@ -17,7 +17,7 @@ This guide is intended for those:
 
 !!! Warning   
 
-    This guide does not go over how or where to obtain game ROMs.
+    This guide does not go over where to obtain game ROMs.
 
 ## Knowledge
 
@@ -33,10 +33,12 @@ This guide assumes an understanding of:
 
 ## Software requirements
 
-- A Windows, MacOS, or Linux system
+- A Windows, MacOS, or Linux system.
+- Internet access.
 
+!!! Note "Operating System"
 
->    This guide is uses Windows 11, but mGBA and its configurations are largely consistent across the available systems
+    This guide is uses Windows 11, but mGBA and its configurations are similar across the available systems.
 
 ## Guide contents
 
@@ -45,6 +47,15 @@ These are the main ideas this guide goes over:
 - [Getting started]()
 - [Configuring controls]()
 - [Configuring audio and video]()
+
+## Typographical conventions  
+
+- **Bolded** words represent actions or important ideas.
+- *Italicized* words represent elements on the screen or relevant concepts.
+- `Blocks` represent file names or text you might input.  
+- The following example represents a series of actions/elements to follow to complete a goal (left-to-right):
+
+    > File > Option > Sub-option > Featire
 
 ## Annotations
 
@@ -55,6 +66,7 @@ Here are the types of note blocks, from most to least important:
 !!! Danger
 
     Contains information about potential errors or mistakes.
+
 !!! Warning
 
     Contains a note that should be read before continuing past.
@@ -71,4 +83,6 @@ Here are the types of note blocks, from most to least important:
 
     Contains additional tips or information about a section.
 
+??? Info "Some blocks are collapsible, click on them to reveal extra information"
 
+    Contains information that is longer in length, or not as urgent.

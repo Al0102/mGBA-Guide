@@ -14,9 +14,9 @@ This section will be divided into two parts  (audio settings and video settings)
     
     > Tools > Settings > Audio/Video
 
-    ![mGBA main screen](../assets/audiovideo/audiovideo-1.gif){ width="90%" }
+    ![mGBA settings](../assets/general/open-settings.gif){ width="90%" }
 
-    ![mGBA main screen](../assets/audiovideo/audiovideo-2.png){ width="90%" }
+    ![mGBA audio/video settings](../assets/audiovideo/audiovideo-2.png){ width="90%" }
 
 ### Audio Settings
 
@@ -46,7 +46,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Affects the balance between audio responsiveness and audio stability.
 
-    ![mGBA main screen](../assets/audiovideo/audiovideo-4.gif){ width="90%" }
+    ![Audio buffer](../assets/audiovideo/audiovideo-4.gif){ width="90%" }
 
     The **lower** the buffer size, the faster sound will respond to what happens in-game but it may cause crackling or popping if your computer can't keep up.
 
@@ -64,7 +64,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Affects how detailed and clear the audio sounds during gameplay.
 
-    ![audio](../assets/audiovideo/audiovideo-5.gif){ width="90%" }
+    ![Audio sample rate](../assets/audiovideo/audiovideo-5.gif){ width="90%" }
 
     The sample rate setting in mGBA determines how many times per second audio is measured and reproduced. A higher sample rate captures more detail in the sound, which can result in clearer and more accurate audio playback.
 
@@ -75,7 +75,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Controls how loud the game audio is played.
 
-    ![audio](../assets/audiovideo/audiovideo-6.png){ width="90%" }
+    ![Audio volume](../assets/audiovideo/audiovideo-6.png){ width="90%" }
 
     The volume slider in mGBA controls how loud the game audio is during normal gameplay. You can increase the volume to make sound effects and music louder, or decrease it for quieter playback or when multitasking.
 
@@ -86,7 +86,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Controls how audio is played when multiple games are connected.
 
-    ![audio](../assets/audiovideo/audiovideo-7.png){ width="90%" }
+    ![Audio multiplayer](../assets/audiovideo/audiovideo-7.png){ width="90%" }
 
     The selected multiplayer sound option determines which emulator window(s) will play audio when multiple game instances are running, allowing you to choose whether sound comes from one active window or from all connected windows simultaneously.
 
@@ -99,7 +99,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Controls how graphics are rendered on screen.
 
-    ![video](../assets/audiovideo/audiovideo-8.gif){ width="90%" }
+    ![Video display driver](../assets/audiovideo/audiovideo-8.gif){ width="90%" }
 
     **Software (Qt)** renders graphics using your computer’s processor instead of the graphics card. This option prioritizes compatibility over performance.
 
@@ -126,7 +126,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Controls how many frames are skipped to improve performance.
 
-    ![video](../assets/audiovideo/audiovideo-9.png){ width="90%" }
+    ![Video frames](../assets/audiovideo/audiovideo-9.png){ width="90%" }
 
     Frameskip in mGBA allows the emulator to skip rendering some visual frames in order to maintain smooth gameplay performance. By drawing fewer frames, the emulator reduces the workload on your computer, which can help prevent slowdowns on less powerful systems. While higher frameskip values can improve performance, they may also make motion appear less smooth or slightly choppy.
 
@@ -139,7 +139,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Controls how the game image is scaled, smoothed, and displayed on your screen.
 
-    ![video](../assets/audiovideo/audiovideo-10.png){ width="90%" }
+    ![Video processing](../assets/audiovideo/audiovideo-10.png){ width="90%" }
 
     **Lock Aspect Ratio** keeps the game’s original screen proportions so the image does not appear stretched or squished.
 
@@ -172,7 +172,7 @@ This section will be divided into two parts  (audio settings and video settings)
 ??? Note "Saving Your Settings"
     Make sure you hit **apply** to save your settings.
 
-    ![video](../assets/audiovideo/audiovideo-11.png){ width="90%" }
+    ![Video setting](../assets/audiovideo/audiovideo-11.png){ width="90%" }
 
 
 !!! Success "Success"

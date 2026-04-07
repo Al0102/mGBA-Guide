@@ -64,6 +64,9 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+  # Checklist icon
+  - pymdownx.tasklist:
+      custom_checkbox: true
   # Code blocks
   # Code blocks syntax highlighting
   - pymdownx.highlight:

@@ -99,6 +99,6 @@ By finishing this section, you should know how to do the following:
 - [x] How to manual patch a ROM
 - [x] How to install and use Lunar IPS
 
-Congratulations :shamrock:, you now know the basics of ROM hacking!  
+Congratulations :shamrock:, you now know the basics of ROM hacking!
 
 Go to the [next section](troubleshooting.md) to go over troubleshooting

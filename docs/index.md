@@ -53,6 +53,7 @@ These are the main ideas this guide goes over:
 - **Bolded** words represent actions or important ideas.
 - *Italicized* words represent elements on the screen or relevant concepts.
 - `Blocks` represent file names or text you might input.  
+- <kbd>Keyboard</kbd> + <kbd>annotations</kbd> represent a key or combination of keys to input on your keyboard.
 - The following example represents a series of actions/elements to follow to complete a goal (left-to-right):
 
     > File > Option > Sub-option > Featire

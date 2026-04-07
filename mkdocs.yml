@@ -3,8 +3,9 @@ site_url: https://al0102.github.io/mGBA-Guide/
 nav:
   - Home: index.md
   - Getting Started: pages/getting-started.md
-  - Configuring Controller & Keyboard: pages/configuring-controls.md
   - Configuring Audio & Video: pages/audiovideo.md
+  - Configuring Controller & Keyboard: pages/configuring-controls.md
+  - Rom Hacks: pages/romhacks.md
   - Troubleshooting: pages/troubleshooting.md
   - Glossary: pages/glossary.md
 

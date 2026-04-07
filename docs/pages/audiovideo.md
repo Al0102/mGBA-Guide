@@ -177,3 +177,15 @@ This section will be divided into two parts  (audio settings and video settings)
 
 !!! Success "Success"
     Your video settings have been configured and graphics should now display smoothly during gameplay. Some settings may require a bit of trial and error to find what works best for your system.
+
+## Conclusion
+    
+By finishing this section, you should know how to do the following:  
+    
+- [x] Navigate to audio/video settings. 
+- [x] Configure the appropriate audio settings for your device. 
+- [x] Configure the appropriate video settings for your device.  
+    
+Wonderful :star:, now you know how to configure your audio and video settings!
+    
+Go to the [next section](configuring-controls.md) to learn

@@ -7,7 +7,8 @@ It is free, open-source, and easy to install, making it a popular choice for man
 
 ## Installing mGBA
 
-The first step is to install the emulator, if you do not already have it.
+The first step is to install the emulator.  
+If you already have it, skip to [Using ROMs](#using-roms).
 
 1. **Visit** the official downloads page at [mgba.io](https://mgba.io/downloads.html).
 2. **Download** a version suitable for your operating system.
@@ -98,13 +99,13 @@ The first step is to install the emulator, if you do not already have it.
 
     The app should look something like this once opened.
 
-    ![mGBA main screen](../assets/getting-started/homescreen.png){ width=90% }
+    ![mGBA home screen](../assets/getting-started/homescreen.png){ width=90% }
 
 ## Using ROMs
 
 ROM stands for *Read-Only Memory*, which refers to data that cannot be modified - often stored in
 cartridge or disc form. In the context of games and emulation, it also refers to copies or "dumps" of the game
-that was originally on these cartridges.  
+from physical to digital form.  
 
 mGBA is compatible with the following types of games:  
 
@@ -171,7 +172,7 @@ The next step is to find a ROM(s) and load it with mGBA.
 
             This should open the *File Explorer*.
 
-            ![Load ROM](../assets/getting-started/load-rom.png){ width=90%}
+            ![Load ROM](../assets/getting-started/load-rom.png){ width=90% }
 
             !!! Info "You can also use a shortcut for this."
             
@@ -179,26 +180,77 @@ The next step is to find a ROM(s) and load it with mGBA.
         
         2. **Choose** a ROM.
             
-            In the file explorer, navigate to the folder from *step 2* and click on the ROM to select it.
+            In the file explorer, **navigate** to the folder from *step 2* and **click** on the ROM to select it.
 
-            ![Load ROM file](../assets/getting-started/load-rom-file.gif){ width=90%}
+            ![Load ROM file](../assets/getting-started/load-rom-file.gif){ width=90% }
 
 
     === "Loading multiple ROMs"
 
+        You can also pre-load multiple games so you can start them from mGBA's home screen.
+
+        1. **Navigate** to the *Interface* tab in mGBA's settings.
+
+            > Tools > Setting > Interface
+
+            ![mGBA settings](../assets/general/open-settings.gif){ width="90%" }
+
+            ![Interface settings](../assets/getting-started/interface-settings.png){ width="90%" }
+    
+        2. **Activate** the game library.
+
+            Under the *Library* section, select *"Show when no game open"*
+            to change the home screen into a game library. 
+
+            ![Show Library option](../assets/getting-started/interface-settings.png){ width="90%" }
+        
+        3. **Click** *"Apply"*.
+
+            This will save the setting and return you to the home screen.
+
+            ![Apply settings](../assets/getting-started/apply-setting.png){ width="90%" }
+        
+            ??? Note "Check!"
+
+                Your home screen should now look like this.
+
+                ![List home screen](../assets/getting-started/library-home.png){ width="90%" }
+
+        
+        4. **Navigate** to the *"Add folder to library..."* option.
+
+            > File > Add folder to library...
+
+            This should open the *File Explorer*.
+
+            ![Add folder to library](../assets/getting-started/add-library.gif){ width=90% }
+
+            !!! Info "You can also use a shortcut for this."
+            
+                **Enter** <kbd>Ctrl</kbd> + <kbd>O</kbd> on your keyboard to quickly load a ROM.
+        
+        5. **Choose** a folder with ROMs.
+            
+            In the file explorer, **navigate** to the folder from *step 2* and **click** *"Open"*.
+
+            ![Load game folder](../assets/getting-started/load-game-folder.gif){ width=90% }
+        
+        6. **Choose** a ROM from the mGBA home screen.
+
+            Start a game by clicking on a ROM name in the home screen.
 
 !!! Success
 
     "Your game should now be running."
+    ![Link's Awakening in mGBA](../assets/getting-started/game-loaded.png){ width=90% }
 
-    !!! Warning
 
 ## Exiting a game
 
 To turn off the game, you can either:
 
-    - **close** mGBA, or
-    - **shutdown** only the game.
+- **close** mGBA, or
+- **shutdown** only the game.
 
 This section highlights the second option.
 
@@ -220,9 +272,9 @@ This section highlights the second option.
 By finishing this section, you should know how to do the following:  
 
 - [x] Install mGBA.  
-- [x] Safely store ROMs.  
-- [x] Start a game ROM.  
-- [x] Shutdown a game ROM.
+- [x] Load individual/multiple ROMs.  
+- [x] Start a game.  
+- [x] Shutdown a game.
 
 Congratulations :tada:, you now know how to set up and play games with mGBA!  
 

@@ -241,7 +241,8 @@ The next step is to find a ROM(s) and load it with mGBA.
 
 !!! Success
 
-    "Your game should now be running."
+    Your game should now be running.  
+
     ![Link's Awakening in mGBA](../assets/getting-started/game-loaded.png){ width=90% }
 
 

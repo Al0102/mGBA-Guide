@@ -279,4 +279,4 @@ By finishing this section, you should know how to do the following:
 
 Congratulations :tada:, you now know how to set up and play games with mGBA!  
 
-Go to the [next section](audiovideo.md) to learn
+Go to the [next section](audiovideo.md) to learn about configuring audio and video settings.

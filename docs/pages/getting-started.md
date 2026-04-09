@@ -191,7 +191,7 @@ The next step is to find a ROM(s) and load it with mGBA.
 
         1. **Navigate** to the *Interface* tab in mGBA's settings.
 
-            > Tools > Setting > Interface
+            > Tools > Settings > Interface
 
             ![mGBA settings](../assets/general/open-settings.gif){ width="90%" }
 
@@ -202,7 +202,7 @@ The next step is to find a ROM(s) and load it with mGBA.
             Under the *Library* section, select *"Show when no game open"*
             to change the home screen into a game library. 
 
-            ![Show Library option](../assets/getting-started/interface-settings.png){ width="90%" }
+            ![Show Library option](../assets/getting-started/show-library.gif){ width="90%" }
         
         3. **Click** *"Apply"*.
 
@@ -215,7 +215,6 @@ The next step is to find a ROM(s) and load it with mGBA.
                 Your home screen should now look like this.
 
                 ![List home screen](../assets/getting-started/library-home.png){ width="90%" }
-
         
         4. **Navigate** to the *"Add folder to library..."* option.
 
@@ -279,4 +278,5 @@ By finishing this section, you should know how to do the following:
 
 Congratulations :tada:, you now know how to set up and play games with mGBA!  
 
-Go to the [next section](audiovideo.md) to learn about configuring audio and video settings.
+Go to the [next section](configuring-controls.md) to learn about
+configuring keyboard and controller controls.

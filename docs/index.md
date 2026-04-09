@@ -24,7 +24,7 @@ This guide is intended for those:
 This guide assumes an understanding of:  
 
 - how to use desktop environments (opening, extracting, and running files/folders), 
-- video games   
+- video games and controllers (controller buttons, connecting via Bluetooth/USB, and graphics)   
 
 !!! Note "Check!"
     

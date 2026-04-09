@@ -188,4 +188,4 @@ By finishing this section, you should know how to do the following:
     
 Wonderful :star:, now you know how to configure your audio and video settings!
     
-Go to the [next section](configuring-controls.md) to learn
+Go to the [next section](romhacks.md) to learn about patching ROMs.

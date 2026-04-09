@@ -101,4 +101,4 @@ By finishing this section, you should know how to do the following:
 
 Congratulations :shamrock:, you now know the basics of ROM hacking!
 
-Go to the [next section](troubleshooting.md) to go over troubleshooting
+Go to the [next section](troubleshooting.md) to go over troubleshooting.

@@ -26,7 +26,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     ![audio settings](../assets/audiovideo/audiovideo-3.gif){ width="90%" }
 
-    **SDL** is a widely used multimedia library designed for games and emulators. It communicates directly with the operating system’s audio system and is generally the most stable and compatible option.
+    [**SDL**](https://www.libsdl.org/) is a widely used multimedia library designed for games and emulators. It communicates directly with the operating system’s audio system and is generally the most stable and compatible option.
 
     ??? Info "Reasons To Choose SDL"
         - Lower audio latency
@@ -34,7 +34,7 @@ This section will be divided into two parts  (audio settings and video settings)
         - Consistent performance
         - Often recommended
 
-    **Qt Multimedia** is part of the Qt framework used to build mGBA’s graphical interface. It integrates smoothly with the application but may not always perform as consistently as SDL on all systems.
+    [**Qt Multimedia**](https://doc.qt.io/qt-6/qtmultimedia-index.html) is part of the Qt framework used to build mGBA’s graphical interface. It integrates smoothly with the application but may not always perform as consistently as SDL on all systems.
 
     ??? Info "Reasons To Choose Qt Multimedia"
         - Works well with standard system audio settings
@@ -101,12 +101,12 @@ This section will be divided into two parts  (audio settings and video settings)
 
     ![Video display driver](../assets/audiovideo/audiovideo-8.gif){ width="90%" }
 
-    **Software (Qt)** renders graphics using your computer’s processor instead of the graphics card. This option prioritizes compatibility over performance.
+    [**Qt**](https://en.wikipedia.org/wiki/Qt_(software)) renders graphics using your computer’s processor instead of the graphics card. This option prioritizes compatibility over performance.
 
     ??? Info "Reasons To Choose Software (Qt)"
-        - OpenGL causes graphical issues
-        - You are using older hardware
-        - You would like maximum compatibility
+        - OpenGL causes graphical issues.  
+        - You are using older hardware.  
+        - You would like maximum compatibility.  
 
     **OpenGL** uses your computer’s graphics hardware to render images efficiently and smoothly. This option generally provides the best performance on modern systems.
 
@@ -169,11 +169,11 @@ This section will be divided into two parts  (audio settings and video settings)
         - You find sharp pixels unappealing
         - You want a softer modern appearance
 
-??? Note "Saving Your Settings"
+??? Note "Saving Your Settings"  
+
     Make sure you hit **apply** to save your settings.
 
     ![Video setting](../assets/audiovideo/audiovideo-11.png){ width="90%" }
-
 
 !!! Success "Success"
     Your video settings have been configured and graphics should now display smoothly during gameplay. Some settings may require a bit of trial and error to find what works best for your system.

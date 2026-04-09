@@ -47,7 +47,7 @@ Manual patching (also referred to as "hard-patching") refers to the process of d
 
 ### Installing Lunar IPS
 
-The first step is to install the tool we will use to hack the ROMs. If you already have Lunar IPS,
+The first step is to install the tool we will use to hack the ROMs. If you already have [**Lunar IPS**](https://www.gamebrew.org/wiki/Lunar_IPS),
 
 1. **Visit** the official downloads page of [Lunar IPS](https://fusoya.eludevisibility.org/lips/).
 

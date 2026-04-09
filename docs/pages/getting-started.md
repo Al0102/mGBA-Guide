@@ -103,8 +103,10 @@ If you already have it, skip to [Using ROMs](#using-roms).
 
 ## Using ROMs
 
-ROM stands for *Read-Only Memory*, which refers to data that cannot be modified - often stored in
-cartridge or disc form. In the context of games and emulation, it also refers to copies or "dumps" of the game
+ROM stands for *Read-Only Memory*, which refers
+to data that cannot be modified - often stored in
+cartridge or disc form. In the context of games
+and emulation, it also refers to copies or "dumps" of the game
 from physical to digital form.  
 
 mGBA is compatible with the following types of games:  

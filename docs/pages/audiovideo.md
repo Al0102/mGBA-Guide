@@ -117,7 +117,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     **OpenGL (force version 1.x)** forces mGBA to use an older version of OpenGL for compatibility with older graphics drivers. This can help if standard OpenGL does not work properly.
 
-    ??? Info "Reasons To Choose OpenGL"
+    ??? Info "Reasons To Choose OpenGL (force version 1.x)"
         - OpenGL fails to start
         - You have an older graphics driver
         - Standard OpenGL is causing graphical errors

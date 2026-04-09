@@ -64,28 +64,28 @@ The first step is to install the tool we will use to hack the ROMs. If you alrea
 
 ### Using Lunar IPS
 
-1. **Download** the ROM hack patch file
+1. **Download** the ROM hack patch file.
     Obtain the patch file provided by the hack's creator. This will usually be in **.ips** format.
 
-2. **Download** the correct base ROM
+2. **Download** the correct base ROM.
     Make sure the ROM version matches the one required by the hack. Using the wrong version may cause the patch to fail or the game to crash.
 
 3. **Open** Lunar IPS
     Launch the Lunar IPS application.
 
-4. **Click** 'Apply IPS Patch'
+4. **Click** 'Apply IPS Patch'.
 
     ![ips](../assets/romhacks/romhack-4.png){ width="50%" }
 
-5. **Open** the .ips hack file
+5. **Open** the .ips hack file.
 
     ![ips](../assets/romhacks/romhack-5.png){ width="50%" }
 
-6. **Open** the ROM file you want to hack
+6. **Open** the ROM file you want to hack.
 
     ![ips](../assets/romhacks/romhack-6.png){ width="50%" }
 
-!!! Success "Success"
+!!! Success
 
     ![ips](../assets/romhacks/romhack-7.png){ width="50%" }
 

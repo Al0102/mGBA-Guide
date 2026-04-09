@@ -10,7 +10,7 @@ The Audio / Video settings in mGBA will allow you to control your preferences as
 
 This section will be divided into two parts  (audio settings and video settings), but first we must navigate to the settings menu.
 
-1. **Navigate** to the audio / video settings:
+1. **Navigate** to the audio / video settings.
     
     > Tools > Settings > Audio/Video
 
@@ -20,7 +20,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
 ### Audio Settings
 
-2. Select audio driver:
+2. **Choose** an audio driver.
 
     Affects audio compatibility, latency, and playback stability.
 
@@ -42,7 +42,7 @@ This section will be divided into two parts  (audio settings and video settings)
         - Simple and reliable fallback
         - No extra configuration
 
-3. Adjust audio buffer:
+3. **Adjust** audio buffer.
 
     Affects the balance between audio responsiveness and audio stability.
 
@@ -60,7 +60,7 @@ This section will be divided into two parts  (audio settings and video settings)
         - Smoother audio playback
         - More stable performance for slower systems
 
-4. Adjust sample rate:
+4. **Adjust** sample rate.
 
     Affects how detailed and clear the audio sounds during gameplay.
 
@@ -71,7 +71,7 @@ This section will be divided into two parts  (audio settings and video settings)
     ??? Info "Recommended Sample Rate"
         Most modern systems use standard sample rates such as **44100 Hz** or **48000 Hz**, which already provide very good sound quality. In most cases, the default setting will work well and does not need to be changed.
 
-5. Set volume levels:
+5. **Adjust** volume levels.
 
     Controls how loud the game audio is played.
 
@@ -82,7 +82,7 @@ This section will be divided into two parts  (audio settings and video settings)
     !!! Check "Fast Forward Volume"
         Fast forward volume controls how loud the audio is when the emulator is running in fast forward mode. Some users prefer lowering this volume because fast-forwarded audio can sound distorted or distracting at higher speeds. Adjusting this setting allows fast forward to remain useful without being too noisy.
 
-6. Multiplayer audio settings:
+6. **Define** multiplayer audio settings.
 
     Controls how audio is played when multiple games are connected.
 
@@ -95,7 +95,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
 ### Video Settings
 
-6. Select display driver:
+6. **Choose** a display driver.
 
     Controls how graphics are rendered on screen.
 
@@ -122,7 +122,7 @@ This section will be divided into two parts  (audio settings and video settings)
         - You have an older graphics driver
         - Standard OpenGL is causing graphical errors
 
-7. Adjust frameskip:
+7. **Adjust** frameskip.
 
     Controls how many frames are skipped to improve performance.
 
@@ -135,7 +135,7 @@ This section will be divided into two parts  (audio settings and video settings)
         - **1-2** is helpful if gameplay feels slow or laggy
         - **3+** is only recommended for very low perfomance systems
 
-8. Set video scaling and image processing:
+8. **Set** video scaling and image processing.
 
     Controls how the game image is scaled, smoothed, and displayed on your screen.
 

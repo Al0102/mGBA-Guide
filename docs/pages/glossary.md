@@ -16,15 +16,14 @@
 | [**Lunar IPS**](https://www.gamebrew.org/wiki/Lunar_IPS) | A utility program for creating and applying ROM patches. |
 | [**OpenGL**](https://www.opengl.org/) | An API rendering 2D or 3D graphics. |
 | Operating System | A piece of software (like *Windows*, *Linux*, or *MacOS*) that handle computer hardware and resources. Also serves as an intermediary between the user and the system. |
-| [**Qt Framework**](https://en.wikipedia.org/wiki/Qt_(software)) | An application development framework.
-| [**Qt Multimedia**](https://doc.qt.io/qt-6/qtmultimedia-index.html) | A part of the larger [**Qt application**](https://en.wikipedia.org/wiki/Qt_(software)) framework that manages graphics |
+| [**Qt Framework**](https://en.wikipedia.org/wiki/Qt_(software)) | An application development framework. |
+| [**Qt Multimedia**](https://doc.qt.io/qt-6/qtmultimedia-index.html) | A part of the larger [**Qt application**](https://en.wikipedia.org/wiki/Qt_(software)) framework that manages graphics. |
 | ROM or Read-Only Memory (general) | Data that cannot be modified, often stored in cartridge or disc form. |
 | ROM (game emulation) | A copy of a game in the form of a digital file. |
 | ROM Hacks | Fan-made modifications or extensions of an existing video game. Often introduces new levels, altered gameplay, bug fixes, or translations. |
 | ROM Patch | A file that is intended to be applied to an existing ROM to modify it. Contains only new data or alterations, not the entirety of the original ROM. |
 | ROM Patching | Applying a patch file to a ROM in order to create a ROM hack. 
 | Sample Rate | How many times per second audio is measured and reproduced. A higher sample rate captures more detail in the sound. |
-| [**SDL or Simple DirectMedia Layer**](https://www.libsdl.org/) | A multimedia library that serves as an intermediary between systems (like audio, graphics, and keyboard input) and
-a program. Often used for games and emulation.
+| [**SDL or Simple DirectMedia Layer**](https://www.libsdl.org/) | A multimedia library that serves as an intermediary between systems (like audio, graphics, and keyboard input) and a program. Often used for games and emulation. |
 | Shortcut (computers) | An input or sequence of inputs mapped to an action (like saving a file) for convenient access. |
 | System Settings | An application or a section of an application that allows for modification of system/user information. |

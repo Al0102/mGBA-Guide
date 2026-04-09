@@ -44,9 +44,10 @@ This guide assumes an understanding of:
 
 These are the main ideas this guide goes over:
 
-- [Getting started]()
-- [Configuring controls]()
-- [Configuring audio and video]()
+- [Getting started](pages/getting-started.md)
+- [Configuring controls](pages/configuring-controls.md)
+- [Configuring audio and video](pages/audiovideo.md)
+- [Patching ROM hacks](pages/romhacks.md)
 
 ## Typographical conventions  
 
@@ -56,13 +57,13 @@ These are the main ideas this guide goes over:
 - <kbd>Keyboard</kbd> + <kbd>annotations</kbd> represent a key or combination of keys to input on your keyboard.
 - The following example represents a series of actions/elements to follow to complete a goal (left-to-right):
 
-    > File > Option > Sub-option > Featire
+    > File > Option > Sub-option > Feature
 
 ## Annotations
 
-Occasionally, a note block will be used to get your attention.  
-These vary from potentially useful tips to important warnings.  
-Here are the types of note blocks, from most to least important:
+Occasionally, a note block will be used to get your attention.
+These vary from potentially useful tips to important warnings.
+Here are the types of note blocks, from most to least important:  
 
 !!! Danger
 

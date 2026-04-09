@@ -8,29 +8,31 @@
       
       
       
-        <link rel="canonical" href="https://al0102.github.io/mGBA-Guide/">
+        <link rel="canonical" href="https://al0102.github.io/mGBA-Guide/pages/getting-started/">
       
       
+        <link rel="prev" href="../..">
       
-        <link rel="next" href="pages/getting-started/">
+      
+        <link rel="next" href="../configuring-controls/">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>MGBA Setup Guide</title>
+        <title>Getting Started - MGBA Setup Guide</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +51,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction" class="md-skip">
+        <a href="#overview" class="md-skip">
           Skip to content
         </a>
       
@@ -90,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="MGBA Setup Guide" class="md-header__button md-logo" aria-label="MGBA Setup Guide" data-md-component="logo">
+    <a href="../.." title="MGBA Setup Guide" class="md-header__button md-logo" aria-label="MGBA Setup Guide" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448 64c106 0 192 86 192 192s-86 192-192 192H192C86 448 0 362 0 256S86 64 192 64zM192 176c-13.3 0-24 10.7-24 24v32h-32c-13.3 0-24 10.7-24 24s10.7 24 24 24h32v32c0 13.3 10.7 24 24 24s24-10.7 24-24v-32h32c13.3 0 24-10.7 24-24s-10.7-24-24-24h-32v-32c0-13.3-10.7-24-24-24m240 96a32 32 0 1 0 0 64 32 32 0 1 0 0-64m64-96a32 32 0 1 0 0 64 32 32 0 1 0 0-64"/></svg>
@@ -110,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Getting Started
             
           </span>
         </div>
@@ -238,7 +240,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="MGBA Setup Guide" class="md-nav__button md-logo" aria-label="MGBA Setup Guide" data-md-component="logo">
+    <a href="../.." title="MGBA Setup Guide" class="md-nav__button md-logo" aria-label="MGBA Setup Guide" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448 64c106 0 192 86 192 192s-86 192-192 192H192C86 448 0 362 0 256S86 64 192 64zM192 176c-13.3 0-24 10.7-24 24v32h-32c-13.3 0-24 10.7-24 24s10.7 24 24 24h32v32c0 13.3 10.7 24 24 24s24-10.7 24-24v-32h32c13.3 0 24-10.7 24-24s-10.7-24-24-24h-32v-32c0-13.3-10.7-24-24-24m240 96a32 32 0 1 0 0 64 32 32 0 1 0 0-64m64-96a32 32 0 1 0 0 64 32 32 0 1 0 0-64"/></svg>
@@ -265,37 +267,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -311,14 +286,64 @@
   
 
       </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
       
         
 
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-  
-    
   
   
     <label class="md-nav__title" for="__toc">
@@ -328,10 +353,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#intended-users" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Intended users
+        Overview
       
     </span>
   </a>
@@ -339,10 +364,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
+  <a href="#installing-mgba" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Requirements
+        Installing mGBA
       
     </span>
   </a>
@@ -350,10 +375,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#knowledge" class="md-nav__link">
+  <a href="#using-roms" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Knowledge
+        Using ROMs
       
     </span>
   </a>
@@ -361,10 +386,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#software-requirements" class="md-nav__link">
+  <a href="#exiting-a-game" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Software requirements
+        Exiting a game
       
     </span>
   </a>
@@ -372,32 +397,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#guide-contents" class="md-nav__link">
+  <a href="#conclusion" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Guide contents
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#typographical-conventions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Typographical conventions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#annotations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Annotations
+        Conclusion
       
     </span>
   </a>
@@ -419,34 +422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pages/getting-started/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Getting Started
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="pages/configuring-controls/" class="md-nav__link">
+      <a href="../configuring-controls/" class="md-nav__link">
         
   
   
@@ -473,7 +449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pages/audiovideo/" class="md-nav__link">
+      <a href="../audiovideo/" class="md-nav__link">
         
   
   
@@ -500,7 +476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pages/romhacks/" class="md-nav__link">
+      <a href="../romhacks/" class="md-nav__link">
         
   
   
@@ -527,7 +503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pages/troubleshooting/" class="md-nav__link">
+      <a href="../troubleshooting/" class="md-nav__link">
         
   
   
@@ -554,7 +530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pages/glossary/" class="md-nav__link">
+      <a href="../glossary/" class="md-nav__link">
         
   
   
@@ -594,89 +570,300 @@
   
 
 
-<h1 id="introduction">Introduction</h1>
-<p>Welcome! <img alt="👋" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f44b.svg" title=":wave:" /> This guide will walk through getting started with the <a href="https://mgba.io/"><strong>mGBA</strong></a> emulator. Our goal is to configure some common settings including setup for ROMs, controllers, audio, and more.</p>
-<p><a href="https://mgba.io/"><strong>mGBA</strong></a> is a popular desktop emulator for the <a href="https://en.wikipedia.org/wiki/Game_Boy_Advance"><strong>Game Boy Advance (GBA)</strong></a> system. It offers a relatively simple setup, as well as many options for configuring it to suit more specific needs.</p>
-<h2 id="intended-users">Intended users</h2>
-<p>This guide is intended for those:</p>
+  <h1>Getting Started</h1>
+
+<h2 id="overview">Overview</h2>
+<p>This section will go through how to set up <a href="https://mgba.io/"><strong>mGBA</strong></a>,
+an emulator for the <a href="https://en.wikipedia.org/wiki/Game_Boy_Advance"><strong>Game Boy Advance (GBA)</strong></a> console.
+It is free, open-source, and easy to install, making it a popular choice for many desktop gamers.</p>
+<h2 id="installing-mgba">Installing mGBA</h2>
+<p>The first step is to install the emulator.<br />
+If you already have it, skip to <a href="#using-roms">Using ROMs</a>.</p>
+<ol>
+<li><strong>Visit</strong> the official downloads page at <a href="https://mgba.io/downloads.html">mgba.io</a>.</li>
+<li>
+<p><strong>Download</strong> a version suitable for your operating system.
+    For Windows users, you will see the following options:</p>
 <ul>
-<li>new users wanting to get started with <a href="https://mgba.io/"><strong>mGBA</strong></a></li>
-<li>users who want to configure <a href="https://mgba.io/"><strong>mGBA</strong></a> beyond the default settings</li>
+<li>Windows (portable .7z archive)</li>
+<li>Windows (installer .exe)</li>
+<li>Windows (64-bit, portable .7z archive) &lt; Recommended</li>
+<li>Windows (64-bit, installer .exe)</li>
 </ul>
-<h2 id="requirements">Requirements</h2>
-<p><a href="https://mgba.io/"><strong>mGBA</strong></a> is lightweight, but there are couple things to have before you get started.</p>
+<div class="admonition info">
+<p class="admonition-title">32-bit vs 64-bit Windows?</p>
+<p>The number of bits refer to the sizing of how data is stored on your system.  </p>
+<p>Most modern computers are <em>64-bit</em>, so you will probably need one of the latter two options.<br />
+If you have a 32-bit system, choose between the first two.  </p>
+<p>If you are unsure, you can usually find this information in your system settings.</p>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Using the portable version</label><label for="__tabbed_1_2">Using the installer</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>The <em>".7z archives"</em> are the <em>portable</em> versions. These hold everything compressed as a 7-Zip (similar to a <em>.zip</em> file).
+This is the recommended way to install mGBA, as you only need to <strong>extract</strong> the files to get started.
+This allows you to choose where to store it on your computer, and also lets you keep your game files with mGBA.  </p>
+<p>Many newer versions of Windows can extract 7-zip without additional setup,
+but some systems may need a separate extractor from the <a href="https://7-zip.link/download.html"><strong>7-zip site</strong></a>.  </p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>This guide does not go over where to obtain game ROMs.</p>
+<p>It is important to store mGBA in a <em>"common folder"</em>
+(does not require administrator privileges to access).</p>
+<p>We recommend storing it in a new folder in <em>Documents</em> or on your <em>Desktop</em></p>
 </div>
-<h2 id="knowledge">Knowledge</h2>
-<p>This guide assumes an understanding of:  </p>
-<ul>
-<li>how to use desktop environments (opening, extracting, and running files/folders), </li>
-<li>video games and controllers (controller buttons, connecting via Bluetooth/USB, and graphics)   </li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Check!</p>
-<p>Do you know these words?<br />
-<a href="https://en.wikipedia.org/wiki/File_manager">File manager</a>, <a href="https://en.wikipedia.org/wiki/ROM_image">ROM file</a>, <a href="https://en.wikipedia.org/wiki/Emulator">Emulator</a></p>
-</div>
-<h2 id="software-requirements">Software requirements</h2>
-<ul>
-<li>A Windows, MacOS, or Linux system.</li>
-<li>Internet access.</li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Operating System</p>
-<p>This guide is uses Windows 11, but mGBA and its configurations are similar across the available systems.</p>
-</div>
-<h2 id="guide-contents">Guide contents</h2>
-<p>These are the main ideas this guide goes over:</p>
-<ul>
-<li><a href="">Getting started</a></li>
-<li><a href="">Configuring controls</a></li>
-<li><a href="">Configuring audio and video</a></li>
-</ul>
-<h2 id="typographical-conventions">Typographical conventions</h2>
-<ul>
-<li><strong>Bolded</strong> words represent actions or important ideas.</li>
-<li><em>Italicized</em> words represent elements on the screen or relevant concepts.</li>
-<li><code>Blocks</code> represent file names or text you might input.  </li>
-<li><kbd>Keyboard</kbd> + <kbd>annotations</kbd> represent a key or combination of keys to input on your keyboard.</li>
+<ol>
+<li><strong>Click</strong> on the <code>Windows (64-bit, portable .7z archive)</code> option to download the files.</li>
 <li>
-<p>The following example represents a series of actions/elements to follow to complete a goal (left-to-right):</p>
+<p><strong>Extract</strong> the files.    </p>
+<ol>
+<li><strong>Right-click</strong> on the archive (<code>mGBA-xx.xx.xx-winxx.7z</code>).</li>
+<li>
+<p><strong>Click</strong> either:</p>
 <blockquote>
-<p>File &gt; Option &gt; Sub-option &gt; Featire</p>
+<p>Extract all</p>
+</blockquote>
+<p>or</p>
+<blockquote>
+<p>Extract with 7-zip</p>
+</blockquote>
+</li>
+<li>
+<p><strong>Choose</strong> a valid location to put the files.</p>
+</li>
+<li><strong>Click</strong> <em>"Extract"</em>.</li>
+</ol>
+<p><img alt="Extracting mGBA portable" src="../../assets/getting-started/extract-1-2.gif" width="90%" /></p>
+</li>
+</ol>
+<details class="success">
+<summary>Success</summary>
+<p>The contents of the extracted folder should look like this.</p>
+<p><img alt="mGBA portable folder" src="../../assets/getting-started/mGBA-portable.png" width="90%" /></p>
+</details>
+</div>
+<div class="tabbed-block">
+<p>The <em>"installer .exe"</em> may be useful for people less comfortable using their file systems.<br />
+This is an application known as an <em>"install wizard"</em>, that will help you install mGBA step-by-step.</p>
+<ol>
+<li><strong>Click</strong> on the <code>Windows (64-bit, installer .exe)</code> option to download the installer.</li>
+<li><strong>Run</strong> the install wizard (<code>mGBA-0.10.5-win64-installer.exe</code>).</li>
+<li><strong>Follow</strong> the prompts on screen.</li>
+</ol>
+<details class="success">
+<summary>Success</summary>
+<p>Once installed, the application should exist at the chosen install location.<br />
+A <em>Desktop</em> or <em>Start Menu</em> shortcut may also created if this was chosen during the install process.  </p>
+</details>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p><strong>Run</strong> mGBA.exe.
+    If the portable version was used, this will be in the extracted folder.  </p>
+<p>If the installer was used, this can usually be accessed from one of the following:</p>
+<ul>
+<li>A <em>"Desktop"</em> shortcut.  </li>
+<li>
+<p>the Windows <em>"Start Menu"</em>.  </p>
+<blockquote>
+<p>Windows-Key <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="m0 93.7 183.6-25.3v177.4H0zm0 324.6 183.6 25.3V268.4H0zm203.8 28L448 480V268.4H203.8zm0-380.6v180.1H448V32z"/></svg></span> &gt; Search "mGBA"</p>
+</blockquote>
+</li>
+<li>
+<p>The install location, the default being:</p>
+<blockquote>
+<p>C:\Program Files\mGBA</p>
 </blockquote>
 </li>
 </ul>
-<h2 id="annotations">Annotations</h2>
-<p>Occasionally, a note block will be used to get your attention.<br />
-These vary from potentially useful tips to important warnings.<br />
-Here are the types of note blocks, from most to least important:</p>
-<div class="admonition danger">
-<p class="admonition-title">Danger</p>
-<p>Contains information about potential errors or mistakes.</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Contains a note that should be read before continuing past.</p>
-</div>
+</li>
+</ol>
 <div class="admonition success">
 <p class="admonition-title">Success</p>
-<p>Contains a message about what a successful task looks like.</p>
+<p>The app should look something like this once opened.</p>
+<p><img alt="mGBA home screen" src="../../assets/getting-started/homescreen.png" width="90%" /></p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Check!</p>
-<p>Contains a quick overview of where you should be after completing a step or task.</p>
-</div>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Contains additional tips or information about a section.</p>
-</div>
-<details class="info">
-<summary>Some blocks are collapsible, click on them to reveal extra information</summary>
-<p>Contains information that is longer in length, or not as urgent.</p>
+<h2 id="using-roms">Using ROMs</h2>
+<p>ROM stands for <em>Read-Only Memory</em>, which refers
+to data that cannot be modified - often stored in
+cartridge or disc form. In the context of games
+and emulation, it also refers to copies or "dumps" of the game
+from physical to digital form.  </p>
+<p>mGBA is compatible with the following types of games:  </p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Game_Boy"><strong>Game Boy</strong></a> (<em>.gb</em> files).  </li>
+<li><a href="https://en.wikipedia.org/wiki/Game_Boy_Color"><strong>Game Boy Color</strong></a> (<em>.gbc</em> files).  </li>
+<li><a href="https://en.wikipedia.org/wiki/Game_Boy_Advance"><strong>Game Boy Advance</strong></a> (<em>.gba</em> files).  </li>
+<li><a href="https://en.wikipedia.org/wiki/Super_Game_Boy"><strong>Super Game Boy</strong></a> (<em>.sgb</em> files).</li>
+</ul>
+<p>The next step is to find a ROM(s) and load it with mGBA.  </p>
+<ol>
+<li>
+<p><strong>Download</strong> a ROM.  </p>
+<p>Getting ROMs can be done in a couple ways:  </p>
+<ul>
+<li><strong>Acquire</strong> them online.</li>
+<li><strong>Upload</strong> them from a physical copy of the game
+  (also known as <a href="https://wiki.provenance-emu.com/using-provenance/roms/ripping-roms#cartridge-dumping">ripping ROMs</a>).</li>
+</ul>
+<details class="danger">
+<summary>Be careful when downloading ROMs online</summary>
+<p>Downloading ROMs online can be risky and can be illegal depending on where you live!  </p>
+<p>Here is a list of things to check if you decide to acquire them this way:  </p>
+<ul>
+<li><strong>Avoid</strong> any ROMs that come as <em>.exe</em> files, these are likely malicious programs.  </li>
+<li><strong>Cross-check</strong> ROM sites with communities such as <a href="https://www.reddit.com/r/Roms/wiki/index/">r/Roms on Reddit</a>.  </li>
+<li><strong>Stay away</strong> from any buttons or links that do not match the look of the rest of the site.  </li>
+</ul>
 </details>
+</li>
+<li>
+<p><strong>Move</strong> the ROM files to a folder of your choosing.</p>
+<p>In your file explorer, drag the <em>.gb</em>, <em>.gba</em>, or <em>.gbc</em> file
+to a <em>"common folder"</em> (does not require administrator privileges to access).
+If the ROM is in a <em>.zip</em> folder, there is no need to extract it.  </p>
+<p>If using the portable version, we recommend creating a <em>"Games"</em> folder in the same location as <em>"mGBA.exe"</em>.</p>
+<details class="warning">
+<summary>Save files are stored in the same folder as the ROM</summary>
+<p>By default, mGBA will also store your game save progress as <em>".sav"</em> files in the same folder as the ROM.  </p>
+<p>To change this behaviour, <strong>edit</strong> the <em>"Path Settings"</em> in mGBA:</p>
+<blockquote>
+<p>Tools &gt; Settings &gt; Interface &gt; Path</p>
+</blockquote>
+</details>
+</li>
+<li>
+<p><strong>Run</strong> mGBA.exe.</p>
+</li>
+<li>
+<p><strong>Load</strong> the ROM.</p>
+<p>Using the ROM files, there are a couple options for loading these into mGBA.  </p>
+<details class="info">
+<summary>Quick start for previously loaded games</summary>
+<p>Once a game has been opened, you can restart it without directly loading the file again.</p>
+<blockquote>
+<p>File &gt; Recent &gt; <em>Name of your ROM</em></p>
+</blockquote>
+</details>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Loading individual ROMs</label><label for="__tabbed_2_2">Loading multiple ROMs</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>One option is to directly start a single game.</p>
+<ol>
+<li>
+<p><strong>Navigate</strong> to the <em>"Load ROM..."</em> option.</p>
+<blockquote>
+<p>File &gt; Load ROM...</p>
+</blockquote>
+<p>This should open the <em>File Explorer</em>.</p>
+<p><img alt="Load ROM" src="../../assets/getting-started/load-rom.png" width="90%" /></p>
+<div class="admonition info">
+<p class="admonition-title">You can also use a shortcut for this.</p>
+<p><strong>Enter</strong> <kbd>Ctrl</kbd> + <kbd>O</kbd> on your keyboard to quickly load a ROM.</p>
+</div>
+</li>
+<li>
+<p><strong>Choose</strong> a ROM.</p>
+<p>In the file explorer, <strong>navigate</strong> to the folder from <em>step 2</em> and <strong>click</strong> on the ROM to select it.</p>
+<p><img alt="Load ROM file" src="../../assets/getting-started/load-rom-file.gif" width="90%" /></p>
+</li>
+</ol>
+</div>
+<div class="tabbed-block">
+<p>You can also pre-load multiple games so you can start them from mGBA's home screen.</p>
+<ol>
+<li>
+<p><strong>Navigate</strong> to the <em>Interface</em> tab in mGBA's settings.</p>
+<blockquote>
+<p>Tools &gt; Settings &gt; Interface</p>
+</blockquote>
+<p><img alt="mGBA settings" src="../../assets/general/open-settings.gif" width="90%" /></p>
+<p><img alt="Interface settings" src="../../assets/getting-started/interface-settings.png" width="90%" /></p>
+</li>
+<li>
+<p><strong>Activate</strong> the game library.</p>
+<p>Under the <em>Library</em> section, select <em>"Show when no game open"</em>
+to change the home screen into a game library. </p>
+<p><img alt="Show Library option" src="../../assets/getting-started/show-library.gif" width="90%" /></p>
+</li>
+<li>
+<p><strong>Click</strong> <em>"Apply"</em>.</p>
+<p>This will save the setting and return you to the home screen.</p>
+<p><img alt="Apply settings" src="../../assets/getting-started/apply-setting.png" width="90%" /></p>
+<details class="note">
+<summary>Check!</summary>
+<p>Your home screen should now look like this.</p>
+<p><img alt="List home screen" src="../../assets/getting-started/library-home.png" width="90%" /></p>
+</details>
+</li>
+<li>
+<p><strong>Navigate</strong> to the <em>"Add folder to library..."</em> option.</p>
+<blockquote>
+<p>File &gt; Add folder to library...</p>
+</blockquote>
+<p>This should open the <em>File Explorer</em>.</p>
+<p><img alt="Add folder to library" src="../../assets/getting-started/add-library.gif" width="90%" /></p>
+<div class="admonition info">
+<p class="admonition-title">You can also use a shortcut for this.</p>
+<p><strong>Enter</strong> <kbd>Ctrl</kbd> + <kbd>O</kbd> on your keyboard to quickly load a ROM.</p>
+</div>
+</li>
+<li>
+<p><strong>Choose</strong> a folder with ROMs.</p>
+<p>In the file explorer, <strong>navigate</strong> to the folder from <em>step 2</em> and <strong>click</strong> <em>"Open"</em>.</p>
+<p><img alt="Load game folder" src="../../assets/getting-started/load-game-folder.gif" width="90%" /></p>
+</li>
+<li>
+<p><strong>Choose</strong> a ROM from the mGBA home screen.</p>
+<p>Start a game by clicking on a ROM name in the home screen.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Your game should now be running.  </p>
+<p><img alt="Link's Awakening in mGBA" src="../../assets/getting-started/game-loaded.png" width="90%" /></p>
+</div>
+<h2 id="exiting-a-game">Exiting a game</h2>
+<p>To turn off the game, you can either:</p>
+<ul>
+<li><strong>close</strong> mGBA, or</li>
+<li><strong>shutdown</strong> only the game.</li>
+</ul>
+<p>This section highlights the second option.</p>
+<div class="admonition warning">
+<p class="admonition-title">Remember to save your progress before exiting.</p>
+</div>
+<ol>
+<li><strong>Navigate</strong> to the <em>Emulation</em> tab.</li>
+<li>
+<p><strong>Click</strong> <em>Shutdown</em>.</p>
+<blockquote>
+<p>Emulation &gt; Shutdown</p>
+</blockquote>
+<p><img alt="Shutting down a game" src="../../assets/getting-started/shutdown.png" width="90%" /></p>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>This should bring you back to mGBA's home screen, where you can load another game.</p>
+</div>
+<h2 id="conclusion">Conclusion</h2>
+<p>By finishing this section, you should know how to do the following:  </p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Install mGBA.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Load individual/multiple ROMs.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Start a game.  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Shutdown a game.</li>
+</ul>
+<p>Congratulations <img alt="🎉" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f389.svg" title=":tada:" />, you now know how to set up and play games with mGBA!  </p>
+<p>Go to the <a href="../configuring-controls/">next section</a> to learn about
+configuring keyboard and controller controls.</p>
 
 
 
@@ -711,15 +898,31 @@ Here are the types of note blocks, from most to least important:</p>
       
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
+          
+          <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
         
           
-          <a href="pages/getting-started/" class="md-footer__link md-footer__link--next" aria-label="Next: Getting Started">
+          <a href="../configuring-controls/" class="md-footer__link md-footer__link--next" aria-label="Next: Configuring Controller &amp; Keyboard">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Getting Started
+                Configuring Controller & Keyboard
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -773,10 +976,10 @@ Here are the types of note blocks, from most to least important:</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.sections", "navigation.top", "toc.integrate", "navigation.footer"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.top", "toc.integrate", "navigation.footer"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

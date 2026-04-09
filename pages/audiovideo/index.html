@@ -8,29 +8,31 @@
       
       
       
-        <link rel="canonical" href="https://al0102.github.io/mGBA-Guide/">
+        <link rel="canonical" href="https://al0102.github.io/mGBA-Guide/pages/audiovideo/">
       
       
+        <link rel="prev" href="../configuring-controls/">
       
-        <link rel="next" href="pages/getting-started/">
+      
+        <link rel="next" href="../romhacks/">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>MGBA Setup Guide</title>
+        <title>Configuring Audio & Video - MGBA Setup Guide</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +51,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction" class="md-skip">
+        <a href="#overview" class="md-skip">
           Skip to content
         </a>
       
@@ -90,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="MGBA Setup Guide" class="md-header__button md-logo" aria-label="MGBA Setup Guide" data-md-component="logo">
+    <a href="../.." title="MGBA Setup Guide" class="md-header__button md-logo" aria-label="MGBA Setup Guide" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448 64c106 0 192 86 192 192s-86 192-192 192H192C86 448 0 362 0 256S86 64 192 64zM192 176c-13.3 0-24 10.7-24 24v32h-32c-13.3 0-24 10.7-24 24s10.7 24 24 24h32v32c0 13.3 10.7 24 24 24s24-10.7 24-24v-32h32c13.3 0 24-10.7 24-24s-10.7-24-24-24h-32v-32c0-13.3-10.7-24-24-24m240 96a32 32 0 1 0 0 64 32 32 0 1 0 0-64m64-96a32 32 0 1 0 0 64 32 32 0 1 0 0-64"/></svg>
@@ -110,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Configuring Audio & Video
             
           </span>
         </div>
@@ -238,7 +240,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="MGBA Setup Guide" class="md-nav__button md-logo" aria-label="MGBA Setup Guide" data-md-component="logo">
+    <a href="../.." title="MGBA Setup Guide" class="md-nav__button md-logo" aria-label="MGBA Setup Guide" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448 64c106 0 192 86 192 192s-86 192-192 192H192C86 448 0 362 0 256S86 64 192 64zM192 176c-13.3 0-24 10.7-24 24v32h-32c-13.3 0-24 10.7-24 24s10.7 24 24 24h32v32c0 13.3 10.7 24 24 24s24-10.7 24-24v-32h32c13.3 0 24-10.7 24-24s-10.7-24-24-24h-32v-32c0-13.3-10.7-24-24-24m240 96a32 32 0 1 0 0 64 32 32 0 1 0 0-64m64-96a32 32 0 1 0 0 64 32 32 0 1 0 0-64"/></svg>
@@ -265,37 +267,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -311,103 +286,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#intended-users" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Intended users
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Requirements
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#knowledge" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Knowledge
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#software-requirements" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Software requirements
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#guide-contents" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Guide contents
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#typographical-conventions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Typographical conventions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#annotations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Annotations
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -419,7 +297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pages/getting-started/" class="md-nav__link">
+      <a href="../getting-started/" class="md-nav__link">
         
   
   
@@ -446,7 +324,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pages/configuring-controls/" class="md-nav__link">
+      <a href="../configuring-controls/" class="md-nav__link">
         
   
   
@@ -470,10 +348,35 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="pages/audiovideo/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuring Audio & Video
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -489,6 +392,85 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#audio-video-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Audio / Video Settings
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Audio / Video Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#audio-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Audio Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#video-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Video Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusion
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -500,7 +482,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pages/romhacks/" class="md-nav__link">
+      <a href="../romhacks/" class="md-nav__link">
         
   
   
@@ -527,7 +509,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pages/troubleshooting/" class="md-nav__link">
+      <a href="../troubleshooting/" class="md-nav__link">
         
   
   
@@ -554,7 +536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pages/glossary/" class="md-nav__link">
+      <a href="../glossary/" class="md-nav__link">
         
   
   
@@ -594,89 +576,213 @@
   
 
 
-<h1 id="introduction">Introduction</h1>
-<p>Welcome! <img alt="👋" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f44b.svg" title=":wave:" /> This guide will walk through getting started with the <a href="https://mgba.io/"><strong>mGBA</strong></a> emulator. Our goal is to configure some common settings including setup for ROMs, controllers, audio, and more.</p>
-<p><a href="https://mgba.io/"><strong>mGBA</strong></a> is a popular desktop emulator for the <a href="https://en.wikipedia.org/wiki/Game_Boy_Advance"><strong>Game Boy Advance (GBA)</strong></a> system. It offers a relatively simple setup, as well as many options for configuring it to suit more specific needs.</p>
-<h2 id="intended-users">Intended users</h2>
-<p>This guide is intended for those:</p>
-<ul>
-<li>new users wanting to get started with <a href="https://mgba.io/"><strong>mGBA</strong></a></li>
-<li>users who want to configure <a href="https://mgba.io/"><strong>mGBA</strong></a> beyond the default settings</li>
-</ul>
-<h2 id="requirements">Requirements</h2>
-<p><a href="https://mgba.io/"><strong>mGBA</strong></a> is lightweight, but there are couple things to have before you get started.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>This guide does not go over where to obtain game ROMs.</p>
+  <h1>Configuring Audio & Video</h1>
+
+<h2 id="overview">Overview</h2>
+<p>The Audio / Video settings in mGBA will allow you to control your preferences as to how your games look and sound on your system. Because mGBA emulates older hardware on modern computers, these settings help ensure that the graphics display clearly, audio plays smoothly and gameplay runs at the correct speed.</p>
+<div class="admonition check">
+<p class="admonition-title">Default Settings</p>
+<p>Most systems will work with the default settings, but spending a few minutes reviewing these options can significantly improve overall performance and comfort.</p>
 </div>
-<h2 id="knowledge">Knowledge</h2>
-<p>This guide assumes an understanding of:  </p>
-<ul>
-<li>how to use desktop environments (opening, extracting, and running files/folders), </li>
-<li>video games and controllers (controller buttons, connecting via Bluetooth/USB, and graphics)   </li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Check!</p>
-<p>Do you know these words?<br />
-<a href="https://en.wikipedia.org/wiki/File_manager">File manager</a>, <a href="https://en.wikipedia.org/wiki/ROM_image">ROM file</a>, <a href="https://en.wikipedia.org/wiki/Emulator">Emulator</a></p>
-</div>
-<h2 id="software-requirements">Software requirements</h2>
-<ul>
-<li>A Windows, MacOS, or Linux system.</li>
-<li>Internet access.</li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Operating System</p>
-<p>This guide is uses Windows 11, but mGBA and its configurations are similar across the available systems.</p>
-</div>
-<h2 id="guide-contents">Guide contents</h2>
-<p>These are the main ideas this guide goes over:</p>
-<ul>
-<li><a href="">Getting started</a></li>
-<li><a href="">Configuring controls</a></li>
-<li><a href="">Configuring audio and video</a></li>
-</ul>
-<h2 id="typographical-conventions">Typographical conventions</h2>
-<ul>
-<li><strong>Bolded</strong> words represent actions or important ideas.</li>
-<li><em>Italicized</em> words represent elements on the screen or relevant concepts.</li>
-<li><code>Blocks</code> represent file names or text you might input.  </li>
-<li><kbd>Keyboard</kbd> + <kbd>annotations</kbd> represent a key or combination of keys to input on your keyboard.</li>
+<h2 id="audio-video-settings">Audio / Video Settings</h2>
+<p>This section will be divided into two parts  (audio settings and video settings), but first we must navigate to the settings menu.</p>
+<ol>
 <li>
-<p>The following example represents a series of actions/elements to follow to complete a goal (left-to-right):</p>
+<p><strong>Navigate</strong> to the audio / video settings:</p>
 <blockquote>
-<p>File &gt; Option &gt; Sub-option &gt; Featire</p>
+<p>Tools &gt; Settings &gt; Audio/Video</p>
 </blockquote>
+<p><img alt="mGBA settings" src="../../assets/general/open-settings.gif" width="90%" /></p>
+<p><img alt="mGBA audio/video settings" src="../../assets/audiovideo/audiovideo-2.png" width="90%" /></p>
 </li>
+</ol>
+<h3 id="audio-settings">Audio Settings</h3>
+<ol>
+<li>
+<p>Select audio driver:</p>
+<p>Affects audio compatibility, latency, and playback stability.</p>
+<p><img alt="audio settings" src="../../assets/audiovideo/audiovideo-3.gif" width="90%" /></p>
+<p><a href="https://www.libsdl.org/"><strong>SDL</strong></a> is a widely used multimedia library designed for games and emulators. It communicates directly with the operating system’s audio system and is generally the most stable and compatible option.</p>
+<details class="info">
+<summary>Reasons To Choose SDL</summary>
+<ul>
+<li>Lower audio latency</li>
+<li>Fewer audio glitches</li>
+<li>Consistent performance</li>
+<li>Often recommended</li>
 </ul>
-<h2 id="annotations">Annotations</h2>
-<p>Occasionally, a note block will be used to get your attention.<br />
-These vary from potentially useful tips to important warnings.<br />
-Here are the types of note blocks, from most to least important:</p>
-<div class="admonition danger">
-<p class="admonition-title">Danger</p>
-<p>Contains information about potential errors or mistakes.</p>
+</details>
+<p><a href="https://doc.qt.io/qt-6/qtmultimedia-index.html"><strong>Qt Multimedia</strong></a> is part of the Qt framework used to build mGBA’s graphical interface. It integrates smoothly with the application but may not always perform as consistently as SDL on all systems.</p>
+<details class="info">
+<summary>Reasons To Choose Qt Multimedia</summary>
+<ul>
+<li>Works well with standard system audio settings</li>
+<li>May resolve issues if SDL has compatibility problems</li>
+<li>Simple and reliable fallback</li>
+<li>No extra configuration</li>
+</ul>
+</details>
+</li>
+<li>
+<p>Adjust audio buffer:</p>
+<p>Affects the balance between audio responsiveness and audio stability.</p>
+<p><img alt="Audio buffer" src="../../assets/audiovideo/audiovideo-4.gif" width="90%" /></p>
+<p>The <strong>lower</strong> the buffer size, the faster sound will respond to what happens in-game but it may cause crackling or popping if your computer can't keep up.</p>
+<details class="info">
+<summary>Reasons To Choose A Lower Buffer Size</summary>
+<ul>
+<li>More responsive sound</li>
+<li>Reduced audio latency</li>
+</ul>
+</details>
+<p>The <strong>higher</strong> the buffer size, the smoother the audio will play, which will help prevent audio glitches but it may add a small delay between game actions and sound.</p>
+<details class="info">
+<summary>Reasons To Choose A Higher Buffer Size</summary>
+<ul>
+<li>Smoother audio playback</li>
+<li>More stable performance for slower systems</li>
+</ul>
+</details>
+</li>
+<li>
+<p>Adjust sample rate:</p>
+<p>Affects how detailed and clear the audio sounds during gameplay.</p>
+<p><img alt="Audio sample rate" src="../../assets/audiovideo/audiovideo-5.gif" width="90%" /></p>
+<p>The sample rate setting in mGBA determines how many times per second audio is measured and reproduced. A higher sample rate captures more detail in the sound, which can result in clearer and more accurate audio playback.</p>
+<details class="info">
+<summary>Recommended Sample Rate</summary>
+<p>Most modern systems use standard sample rates such as <strong>44100 Hz</strong> or <strong>48000 Hz</strong>, which already provide very good sound quality. In most cases, the default setting will work well and does not need to be changed.</p>
+</details>
+</li>
+<li>
+<p>Set volume levels:</p>
+<p>Controls how loud the game audio is played.</p>
+<p><img alt="Audio volume" src="../../assets/audiovideo/audiovideo-6.png" width="90%" /></p>
+<p>The volume slider in mGBA controls how loud the game audio is during normal gameplay. You can increase the volume to make sound effects and music louder, or decrease it for quieter playback or when multitasking.</p>
+<div class="admonition check">
+<p class="admonition-title">Fast Forward Volume</p>
+<p>Fast forward volume controls how loud the audio is when the emulator is running in fast forward mode. Some users prefer lowering this volume because fast-forwarded audio can sound distorted or distracting at higher speeds. Adjusting this setting allows fast forward to remain useful without being too noisy.</p>
 </div>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Contains a note that should be read before continuing past.</p>
-</div>
+</li>
+<li>
+<p>Multiplayer audio settings:</p>
+<p>Controls how audio is played when multiple games are connected.</p>
+<p><img alt="Audio multiplayer" src="../../assets/audiovideo/audiovideo-7.png" width="90%" /></p>
+<p>The selected multiplayer sound option determines which emulator window(s) will play audio when multiple game instances are running, allowing you to choose whether sound comes from one active window or from all connected windows simultaneously.</p>
+</li>
+</ol>
 <div class="admonition success">
 <p class="admonition-title">Success</p>
-<p>Contains a message about what a successful task looks like.</p>
+<p>Your audio settings have been configured and sound should now play smoothly during gameplay. Some settings may require a bit of trial and error to find what works best for your system.</p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Check!</p>
-<p>Contains a quick overview of where you should be after completing a step or task.</p>
-</div>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Contains additional tips or information about a section.</p>
-</div>
+<h3 id="video-settings">Video Settings</h3>
+<ol>
+<li>
+<p>Select display driver:</p>
+<p>Controls how graphics are rendered on screen.</p>
+<p><img alt="Video display driver" src="../../assets/audiovideo/audiovideo-8.gif" width="90%" /></p>
+<p><a href="https://en.wikipedia.org/wiki/Qt_(software)"><strong>Qt</strong></a> renders graphics using your computer’s processor instead of the graphics card. This option prioritizes compatibility over performance.</p>
 <details class="info">
-<summary>Some blocks are collapsible, click on them to reveal extra information</summary>
-<p>Contains information that is longer in length, or not as urgent.</p>
+<summary>Reasons To Choose Software (Qt)</summary>
+<ul>
+<li>OpenGL causes graphical issues.  </li>
+<li>You are using older hardware.  </li>
+<li>You would like maximum compatibility.  </li>
+</ul>
 </details>
+<p><strong>OpenGL</strong> uses your computer’s graphics hardware to render images efficiently and smoothly. This option generally provides the best performance on modern systems.</p>
+<details class="info">
+<summary>Reasons To Choose OpenGL</summary>
+<ul>
+<li>You want good performance</li>
+<li>Your computer has modern graphics hardware</li>
+<li>You experience smooth gameplay with no visual issues</li>
+</ul>
+</details>
+<p><strong>OpenGL (force version 1.x)</strong> forces mGBA to use an older version of OpenGL for compatibility with older graphics drivers. This can help if standard OpenGL does not work properly.</p>
+<details class="info">
+<summary>Reasons To Choose OpenGL</summary>
+<ul>
+<li>OpenGL fails to start</li>
+<li>You have an older graphics driver</li>
+<li>Standard OpenGL is causing graphical errors</li>
+</ul>
+</details>
+</li>
+<li>
+<p>Adjust frameskip:</p>
+<p>Controls how many frames are skipped to improve performance.</p>
+<p><img alt="Video frames" src="../../assets/audiovideo/audiovideo-9.png" width="90%" /></p>
+<p>Frameskip in mGBA allows the emulator to skip rendering some visual frames in order to maintain smooth gameplay performance. By drawing fewer frames, the emulator reduces the workload on your computer, which can help prevent slowdowns on less powerful systems. While higher frameskip values can improve performance, they may also make motion appear less smooth or slightly choppy.</p>
+<details class="info">
+<summary>Recommended Frameskip</summary>
+<ul>
+<li><strong>0 (Off)</strong> for best visual quality on most modern computers</li>
+<li><strong>1-2</strong> is helpful if gameplay feels slow or laggy</li>
+<li><strong>3+</strong> is only recommended for very low perfomance systems</li>
+</ul>
+</details>
+</li>
+<li>
+<p>Set video scaling and image processing:</p>
+<p>Controls how the game image is scaled, smoothed, and displayed on your screen.</p>
+<p><img alt="Video processing" src="../../assets/audiovideo/audiovideo-10.png" width="90%" /></p>
+<p><strong>Lock Aspect Ratio</strong> keeps the game’s original screen proportions so the image does not appear stretched or squished.</p>
+<details class="info">
+<summary>Reasons To Lock Aspect Ratio</summary>
+<ul>
+<li>You want the game to look natural and undistorted</li>
+<li>You notice the image looks too wide or too tall</li>
+<li>You want visuals closest to original hardware</li>
+</ul>
+</details>
+<p><strong>Force Integer Scaling</strong> scales the image using whole-number multiples (2x, 3x, 4x) to keep pixels sharp and evenly sized.</p>
+<details class="info">
+<summary>Reasons To Force Integer Scaling</summary>
+<ul>
+<li>You want clean pixel graphics</li>
+<li>You prefer an authentic retro appearance</li>
+<li>You would like to avoid uneven or blurry pixels</li>
+</ul>
+</details>
+<p><strong>Interframe Blending</strong> blends consecutive frames together to create smoother-looking motion, similar to motion blur.</p>
+<details class="info">
+<summary>Reasons To Interframe Blend</summary>
+<ul>
+<li>You want a smoother motion appearance</li>
+<li>You find fast movement looks too sharp or flickery</li>
+<li>You prefer a softer visual effect</li>
+</ul>
+</details>
+<p><strong>Bilinear Filtering</strong> smooths the edges of pixels when the image is enlarged, reducing the blocky look of low-resolution graphics.</p>
+<details class="info">
+<summary>Reasons To Bilinearly Filter</summary>
+<ul>
+<li>You prefer smoother, less pixelated visuals</li>
+<li>You find sharp pixels unappealing</li>
+<li>You want a softer modern appearance</li>
+</ul>
+</details>
+</li>
+</ol>
+<details class="note">
+<summary>Saving Your Settings</summary>
+<p>Make sure you hit <strong>apply</strong> to save your settings.</p>
+<p><img alt="Video setting" src="../../assets/audiovideo/audiovideo-11.png" width="90%" /></p>
+</details>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Your video settings have been configured and graphics should now display smoothly during gameplay. Some settings may require a bit of trial and error to find what works best for your system.</p>
+</div>
+<h2 id="conclusion">Conclusion</h2>
+<p>By finishing this section, you should know how to do the following:  </p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Navigate to audio/video settings. </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Configure the appropriate audio settings for your device. </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Configure the appropriate video settings for your device.  </li>
+</ul>
+<p>Wonderful <img alt="⭐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2b50.svg" title=":star:" />, now you know how to configure your audio and video settings!</p>
+<p>Go to the <a href="../romhacks/">next section</a> to learn about patching ROMs.</p>
 
 
 
@@ -711,15 +817,31 @@ Here are the types of note blocks, from most to least important:</p>
       
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
+          
+          <a href="../configuring-controls/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Configuring Controller &amp; Keyboard">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Configuring Controller & Keyboard
+              </div>
+            </div>
+          </a>
+        
         
           
-          <a href="pages/getting-started/" class="md-footer__link md-footer__link--next" aria-label="Next: Getting Started">
+          <a href="../romhacks/" class="md-footer__link md-footer__link--next" aria-label="Next: Patching ROM Hacks">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Getting Started
+                Patching ROM Hacks
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -773,10 +895,10 @@ Here are the types of note blocks, from most to least important:</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.sections", "navigation.top", "toc.integrate", "navigation.footer"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.top", "toc.integrate", "navigation.footer"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

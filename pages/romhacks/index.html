@@ -8,25 +8,31 @@
       
       
       
+        <link rel="canonical" href="https://al0102.github.io/mGBA-Guide/pages/romhacks/">
       
+      
+        <link rel="prev" href="../audiovideo/">
+      
+      
+        <link rel="next" href="../troubleshooting/">
       
       
         
       
       
-      <link rel="icon" href="/mGBA-Guide/assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>MGBA Setup Guide</title>
+        <title>Patching ROM Hacks - MGBA Setup Guide</title>
       
     
     
-      <link rel="stylesheet" href="/mGBA-Guide/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/mGBA-Guide/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -45,7 +51,7 @@
       
     
     
-    <script>__md_scope=new URL("/mGBA-Guide/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -81,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/mGBA-Guide/." title="MGBA Setup Guide" class="md-header__button md-logo" aria-label="MGBA Setup Guide" data-md-component="logo">
+    <a href="../.." title="MGBA Setup Guide" class="md-header__button md-logo" aria-label="MGBA Setup Guide" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448 64c106 0 192 86 192 192s-86 192-192 192H192C86 448 0 362 0 256S86 64 192 64zM192 176c-13.3 0-24 10.7-24 24v32h-32c-13.3 0-24 10.7-24 24s10.7 24 24 24h32v32c0 13.3 10.7 24 24 24s24-10.7 24-24v-32h32c13.3 0 24-10.7 24-24s-10.7-24-24-24h-32v-32c0-13.3-10.7-24-24-24m240 96a32 32 0 1 0 0 64 32 32 0 1 0 0-64m64-96a32 32 0 1 0 0 64 32 32 0 1 0 0-64"/></svg>
@@ -101,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Patching ROM Hacks
             
           </span>
         </div>
@@ -229,7 +240,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/mGBA-Guide/." title="MGBA Setup Guide" class="md-nav__button md-logo" aria-label="MGBA Setup Guide" data-md-component="logo">
+    <a href="../.." title="MGBA Setup Guide" class="md-nav__button md-logo" aria-label="MGBA Setup Guide" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448 64c106 0 192 86 192 192s-86 192-192 192H192C86 448 0 362 0 256S86 64 192 64zM192 176c-13.3 0-24 10.7-24 24v32h-32c-13.3 0-24 10.7-24 24s10.7 24 24 24h32v32c0 13.3 10.7 24 24 24s24-10.7 24-24v-32h32c13.3 0 24-10.7 24-24s-10.7-24-24-24h-32v-32c0-13.3-10.7-24-24-24m240 96a32 32 0 1 0 0 64 32 32 0 1 0 0-64m64-96a32 32 0 1 0 0 64 32 32 0 1 0 0-64"/></svg>
@@ -259,7 +270,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mGBA-Guide/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -286,7 +297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mGBA-Guide/pages/getting-started/" class="md-nav__link">
+      <a href="../getting-started/" class="md-nav__link">
         
   
   
@@ -313,7 +324,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mGBA-Guide/pages/configuring-controls/" class="md-nav__link">
+      <a href="../configuring-controls/" class="md-nav__link">
         
   
   
@@ -340,7 +351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mGBA-Guide/pages/audiovideo/" class="md-nav__link">
+      <a href="../audiovideo/" class="md-nav__link">
         
   
   
@@ -364,10 +375,35 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/mGBA-Guide/pages/romhacks/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patching ROM Hacks
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -383,6 +419,96 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-patching" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto Patching
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manual-patching" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manual Patching
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Manual Patching">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installing-lunar-ips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing Lunar IPS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-lunar-ips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Lunar IPS
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusion
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -394,7 +520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mGBA-Guide/pages/troubleshooting/" class="md-nav__link">
+      <a href="../troubleshooting/" class="md-nav__link">
         
   
   
@@ -421,7 +547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mGBA-Guide/pages/glossary/" class="md-nav__link">
+      <a href="../glossary/" class="md-nav__link">
         
   
   
@@ -454,8 +580,145 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  
+  
+
+
+  <h1>Patching ROM Hacks</h1>
+
+<h2 id="overview">Overview</h2>
+<p>This section will walk through the process of patching ROM hacks so they can be played in <a href="https://mgba.io/"><strong>mGBA</strong></a>. We will go over the basic steps for creating a properly patched ROM that works correctly in the emulator on Windows 11. By the end of this section, you should understand which patch type to use, how to apply it, and how to troubleshoot common issues if a patch does not work as expected.</p>
+<details class="note">
+<summary>What Are ROM Hacks?</summary>
+<p><a href="https://www.romhacking.net/hacks/"><strong>ROM hacks</strong></a> are fan-made modifications of existing video games that change or expand the original experience. They can include things like new levels, altered gameplay mechanics, visual improvements, bug fixes, difficulty adjustments, or unofficial translations of games that were never released in certain regions. ROM hacks allow players to revisit familiar games in new ways or experience content that was never part of the official release.  </p>
+</details>
+<details class="note">
+<summary>What Is Patching?</summary>
+<p><a href="https://fantasyanime.com/patching#about-patching"><strong>Patching</strong></a> is the process of applying a small file containing modifications to an original game ROM in order to create a ROM hack. The patch file only includes the differences between the original game and the modified version, rather than the full game itself. Once the patch is applied, the newly created ROM can be played in an emulator such as <a href="https://mgba.io/"><strong>mGBA</strong></a>.</p>
+</details>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This section is going to assume you have one or many ROM files installed, or at the very least you know how to install and access a ROM file.</p>
+</div>
+<h2 id="auto-patching">Auto Patching</h2>
+<p>Auto patching (also referred to as "soft-patching") allows the emulator to apply a patch file automatically when the game is launched, while the original ROM remains unchanged.</p>
+<details class="info">
+<summary>Why Would I Choose Auto Patching?</summary>
+<ul>
+<li>You want to keep your original ROM unchanged</li>
+<li>You may want to easily remove or change the patch later</li>
+<li>You want a quick and simple setup with minimal file modification</li>
+</ul>
+</details>
+<ol>
+<li>
+<p><strong>Load</strong> the ROM you want to hack.</p>
+<blockquote>
+<p>File &gt; Load ROM</p>
+</blockquote>
+<p><img alt="rom" src="../../assets/romhacks/romhack-3.gif" width="50%" /></p>
+</li>
+<li>
+<p><strong>Load</strong> the ROM hack patch.</p>
+<blockquote>
+<p>File &gt; Load Patch</p>
+</blockquote>
+<p><img alt="patch" src="../../assets/romhacks/romhack-2.gif" width="50%" /></p>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Super easy right? That is the simplest method to patch your ROM hacks.</p>
+</div>
+<h2 id="manual-patching">Manual Patching</h2>
+<p>Manual patching (also referred to as "hard-patching") refers to the process of directly modifying a ROM by applying a patch file, resulting in a permanently updated game file.</p>
+<details class="info">
+<summary>Why Manual Patching?</summary>
+<ul>
+<li>It is the most widely supported and commonly used patching method</li>
+<li>Many ROM hacks specifically expect the ROM to be pre-patched</li>
+<li>It creates a single ready-to-play file that works in most emulators</li>
+<li>The process is reliable and easy to follow for beginners</li>
+</ul>
+</details>
+<h3 id="installing-lunar-ips">Installing Lunar IPS</h3>
+<p>The first step is to install the tool we will use to hack the ROMs. If you already have <a href="https://www.gamebrew.org/wiki/Lunar_IPS"><strong>Lunar IPS</strong></a>,</p>
+<ol>
+<li>
+<p><strong>Visit</strong> the official downloads page of <a href="https://fusoya.eludevisibility.org/lips/">Lunar IPS</a>.</p>
+</li>
+<li>
+<p><strong>Download</strong> the WinZip file.</p>
+</li>
+<li>
+<p><strong>Open</strong> the downloaded archive and locate the Lunar IPS application file.</p>
+</li>
+<li>
+<p><strong>Extract</strong> the contents of the archive to a convenient location on your computer.</p>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>You have successfully install Lunar IPS and this is what you should see:</p>
+<p><img alt="lunarips" src="../../assets/romhacks/romhack-1.png" width="50%" /></p>
+</div>
+<h3 id="using-lunar-ips">Using Lunar IPS</h3>
+<ol>
+<li>
+<p><strong>Download</strong> the ROM hack patch file
+    Obtain the patch file provided by the hack's creator. This will usually be in <strong>.ips</strong> format.</p>
+</li>
+<li>
+<p><strong>Download</strong> the correct base ROM
+    Make sure the ROM version matches the one required by the hack. Using the wrong version may cause the patch to fail or the game to crash.</p>
+</li>
+<li>
+<p><strong>Open</strong> Lunar IPS
+    Launch the Lunar IPS application.</p>
+</li>
+<li>
+<p><strong>Click</strong> 'Apply IPS Patch'</p>
+<p><img alt="ips" src="../../assets/romhacks/romhack-4.png" width="50%" /></p>
+</li>
+<li>
+<p><strong>Open</strong> the .ips hack file</p>
+<p><img alt="ips" src="../../assets/romhacks/romhack-5.png" width="50%" /></p>
+</li>
+<li>
+<p><strong>Open</strong> the ROM file you want to hack</p>
+<p><img alt="ips" src="../../assets/romhacks/romhack-6.png" width="50%" /></p>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p><img alt="ips" src="../../assets/romhacks/romhack-7.png" width="50%" /></p>
+<p>All done! now when you load that ROM, it will be loaded pre-hacked.</p>
+</div>
+<h2 id="conclusion">Conclusion</h2>
+<p>By finishing this section, you should know how to do the following:  </p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> How to auto patch a ROM</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> How to manual patch a ROM</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> How to install and use Lunar IPS</li>
+</ul>
+<p>Congratulations <img alt="☘" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2618.svg" title=":shamrock:" />, you now know the basics of ROM hacking!</p>
+<p>Go to the <a href="../troubleshooting/">next section</a> to go over troubleshooting.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -473,6 +736,44 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../audiovideo/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Configuring Audio &amp; Video">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Configuring Audio & Video
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../troubleshooting/" class="md-footer__link md-footer__link--next" aria-label="Next: Troubleshooting">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Troubleshooting
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
@@ -517,10 +818,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/mGBA-Guide/", "features": ["navigation.sections", "navigation.top", "toc.integrate", "navigation.footer"], "search": "/mGBA-Guide/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.top", "toc.integrate", "navigation.footer"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/mGBA-Guide/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

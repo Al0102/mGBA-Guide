@@ -212,11 +212,11 @@ The next step is to find a ROM(s) and load it with mGBA.
 
             ![Apply settings](../assets/getting-started/apply-setting.png){ width="90%" }
         
-            ??? Note "Check!"
+            !!! Note "Check if the setting worked!"
 
                 Your home screen should now look like this.
 
-                ![List home screen](../assets/getting-started/library-home.png){ width="90%" }
+                ![List home screen](../assets/getting-started/library-home.png){ width="50%" }
         
         4. **Navigate** to the *"Add folder to library..."* option.
 

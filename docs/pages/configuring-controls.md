@@ -54,19 +54,19 @@ One can use the defaults, or easily rebind them from the settings.
 
         > Up > Right > Down > Left > A > B > Select > Start > L (left shoulder) > R (right shoulder)
 
-        ![Set all option for the keyboard](../assets/controls/keyboard-set-all.gif){ width="90%" }
+        ![Set all option for the keyboard](../assets/controls/keyboard-set-all.gif){ width="50%" }
 
 3. **Enter** the keyboard key that you want to bind it to.
 
     The higlighted textbox indicates the currently selected button.
 
-    ![Set B button for the keyboard](../assets/controls/keyboard-set-single.gif){ width="90%" }
+    ![Set B button for the keyboard](../assets/controls/keyboard-set-single.gif){ width="50%" }
 
 4. **Click** *"Apply"*.
 
     This will save the setting and return you to the home screen.
 
-    ![Apply settings](../assets/controls/keyboard-apply.png){ width="90%" }
+    ![Apply settings](../assets/controls/keyboard-apply.png){ width="80%" }
 
 ### Binding a gamepad/controller
 
@@ -96,9 +96,9 @@ or wireless (such as [**Bluetooth**](https://en.wikipedia.org/wiki/Bluetooth)) c
 
     > Tools > Settings > Controllers 
 
-    ![mGBA settings](../assets/general/open-settings.gif){ width="90%" }
+    ![mGBA settings](../assets/general/open-settings.gif){ width="50%" }
 
-    ![Controller settings](../assets/controls/controller-setting.png){ width="90%" }
+    ![Controller settings](../assets/controls/controller-setting.png){ width="50%" }
 
 3. **Choose** the desired controller from the dropdown.
 
@@ -106,7 +106,7 @@ or wireless (such as [**Bluetooth**](https://en.wikipedia.org/wiki/Bluetooth)) c
     if you have multiple connected. You may need to click **Refresh**
     if it does not appear right away.  
 
-    ![Choose a controller from dropdown](../assets/controls/controller-choose.gif){ width=90% }
+    ![Choose a controller from dropdown](../assets/controls/controller-choose.gif){ width=50% }
 
 4. **Click** on the button that you want to bind.
 
@@ -119,13 +119,13 @@ or wireless (such as [**Bluetooth**](https://en.wikipedia.org/wiki/Bluetooth)) c
 
         > Up > Right > Down > Left > A > B > Select > Start > L (left shoulder) > R (right shoulder)
 
-        ![Set all option for the controller](../assets/controls/controller-set-all.gif){ width="90%" }
+        ![Set all option for the controller](../assets/controls/controller-set-all.gif){ width="50%" }
 
 5. **Enter** the desired button or motion on the controller.
 
     The higlighted textbox indicates the currently selected Game Boy button.
 
-    ![Set B button for the controller](../assets/controls/controller-set-single.gif){ width="90%" }
+    ![Set B button for the controller](../assets/controls/controller-set-single.gif){ width="50%" }
 
     ??? Note "What are these numbers?"
 
@@ -208,7 +208,7 @@ or wireless (such as [**Bluetooth**](https://en.wikipedia.org/wiki/Bluetooth)) c
 
     This will save the setting and return you to the home screen.
 
-    ![Apply settings](../assets/controls/controller-apply.png){ width="90%" }
+    ![Apply settings](../assets/controls/controller-apply.png){ width="80%" }
 
 !!! Success
 
@@ -247,7 +247,7 @@ by mapping the *"Save State"* action to the home button on a controller.
 
 2. **Navigate** to the *Save state* action.
 
-    ![mGBA settings](../assets/controls/shortcut-to-save-state.gif){ width="90%" }
+    ![mGBA settings](../assets/controls/shortcut-to-save-state.gif){ width="50%" }
 
     !!! Note "Check!"
 
@@ -264,7 +264,7 @@ by mapping the *"Save State"* action to the home button on a controller.
        - the bottom-right text box being highlighted and  
        - the bottom-left option switching to *"Gamepad"*.
 
-    ![Setting Save state action](../assets/controls/shortcut-save-state-click.png){ width="90%" }
+    ![Setting Save state action](../assets/controls/shortcut-save-state-click.png){ width="50%" }
     
 4. **Enter** the button that you want to bind the action to.
 
@@ -276,13 +276,13 @@ by mapping the *"Save State"* action to the home button on a controller.
     Again, **double-click** the space
     in the *Gamepad* column and *Save state* row.  
 
-    ![Finish action bind](../assets/controls/shortcut-save-state-done.png){ width="90%" }  
+    ![Finish action bind](../assets/controls/shortcut-save-state-done.png){ width="50%" }  
 
 6. **Click** *"Apply"*.
 
     This will save the setting and return you to the home screen.
 
-    ![Apply settings](../assets/controls/shortcut-apply.png){ width="90%" }  
+    ![Apply settings](../assets/controls/shortcut-apply.png){ width="80%" }  
 
 !!! Success
 

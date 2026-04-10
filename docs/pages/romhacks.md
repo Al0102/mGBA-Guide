@@ -1,12 +1,12 @@
 ## Overview
 
-This section will walk through the process of patching ROM hacks so they can be played in [**mGBA**](https://mgba.io/). We will go over the basic steps for creating a properly patched ROM that works correctly in the emulator on Windows 11. By the end of this section, you should understand which patch type to use, how to apply it, and how to troubleshoot common issues if a patch does not work as expected.
+This section will walk through the process of patching ROM hacks so they can be played in [**mGBA**](https://mgba.io/ "mGBA site"). We will go over the basic steps for creating a properly patched ROM that works correctly in the emulator on Windows 11. By the end of this section, you should understand which patch type to use, how to apply it, and how to troubleshoot common issues if a patch does not work as expected.
 
 ??? Note "What Are ROM Hacks?"
-    [**ROM hacks**](https://www.romhacking.net/hacks/) are fan-made modifications of existing video games that change or expand the original experience. They can include things like new levels, altered gameplay mechanics, visual improvements, bug fixes, difficulty adjustments, or unofficial translations of games that were never released in certain regions. ROM hacks allow players to revisit familiar games in new ways or experience content that was never part of the official release.  
+    [**ROM hacks**](https://www.romhacking.net/hacks/ "ROM hacks - RomHacking") are fan-made modifications of existing video games that change or expand the original experience. They can include things like new levels, altered gameplay mechanics, visual improvements, bug fixes, difficulty adjustments, or unofficial translations of games that were never released in certain regions. ROM hacks allow players to revisit familiar games in new ways or experience content that was never part of the official release.  
 
 ??? Note "What Is Patching?"
-    [**Patching**](https://fantasyanime.com/patching#about-patching) is the process of applying a small file containing modifications to an original game ROM in order to create a ROM hack. The patch file only includes the differences between the original game and the modified version, rather than the full game itself. Once the patch is applied, the newly created ROM can be played in an emulator such as [**mGBA**](https://mgba.io/).
+    [**Patching**](https://fantasyanime.com/patching#about-patching "Patching ROMs - FantasyAnime") is the process of applying a small file containing modifications to an original game ROM in order to create a ROM hack. The patch file only includes the differences between the original game and the modified version, rather than the full game itself. Once the patch is applied, the newly created ROM can be played in an emulator such as [**mGBA**](https://mgba.io/ "mGBA site").
 
 !!! Warning "Warning"
     This section is going to assume you have one or many ROM files installed, or at the very least you know how to install and access a ROM file.
@@ -31,13 +31,13 @@ Auto patching (also referred to as "soft-patching") allows the emulator to apply
 
     > File > Load ROM
 
-    ![rom](../assets/romhacks/romhack-3.gif){ width="50%" }
+    ![rom](../assets/romhacks/romhack-3.gif "Load ROM"){ width="50%" }
 
 2. **Load** the ROM hack patch.
 
     > File > Load Patch
 
-    ![patch](../assets/romhacks/romhack-2.gif){ width="50%" }
+    ![patch](../assets/romhacks/romhack-2.gif "Load patch"){ width="50%" }
 
 !!! Success "Success"
     Super easy right? That is the simplest method to patch your ROM hacks.
@@ -67,7 +67,7 @@ The first step is to install the tool we will use to hack the ROMs.
 !!! Success "Success"
     You have successfully install Lunar IPS and this is what you should see:
 
-    ![lunarips](../assets/romhacks/romhack-1.png){ width="50%" }
+    ![lunarips](../assets/romhacks/romhack-1.png "Patched game"){ width="50%" }
 
 ### Using Lunar IPS
 
@@ -82,19 +82,19 @@ The first step is to install the tool we will use to hack the ROMs.
 
 4. **Click** 'Apply IPS Patch'.
 
-    ![ips](../assets/romhacks/romhack-4.png){ width="50%" }
+    ![Apply ips](../assets/romhacks/romhack-4.png "Apply IPS patch"){ width="50%" }
 
 5. **Open** the .ips hack file.
 
-    ![ips](../assets/romhacks/romhack-5.png){ width="50%" }
+    ![Open ips file](../assets/romhacks/romhack-5.png "Open IPS file"){ width="50%" }
 
 6. **Open** the ROM file you want to hack.
 
-    ![ips](../assets/romhacks/romhack-6.png){ width="50%" }
+    ![Open ROM file](../assets/romhacks/romhack-6.png "Open ROM file"){ width="50%" }
 
 !!! Success
 
-    ![ips](../assets/romhacks/romhack-7.png){ width="50%" }
+    ![Successful ips](../assets/romhacks/romhack-7.png "Successful patch"){ width="50%" }
 
     All done! now when you load that ROM, it will be loaded pre-hacked.
 

@@ -14,9 +14,9 @@ This section will be divided into two parts  (audio settings and video settings)
     
     > Tools > Settings > Audio/Video
 
-    ![mGBA settings](../assets/general/open-settings.gif){ width="90%" }
+    ![mGBA settings](../assets/general/open-settings.gif "Open mGBA settings"){ width="90%" }
 
-    ![mGBA audio/video settings](../assets/audiovideo/audiovideo-2.png){ width="90%" }
+    ![mGBA audio/video settings](../assets/audiovideo/audiovideo-2.png "Open Audio/Video settings"){ width="90%" }
 
 ### Audio Settings
 
@@ -24,9 +24,9 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Affects audio compatibility, latency, and playback stability.
 
-    ![audio settings](../assets/audiovideo/audiovideo-3.gif){ width="90%" }
+    ![audio settings](../assets/audiovideo/audiovideo-3.gif "Audio settings"){ width="90%" }
 
-    [**SDL**](https://www.libsdl.org/) is a widely used multimedia library designed for games and emulators. It communicates directly with the operating system’s audio system and is generally the most stable and compatible option.
+    [**SDL**](https://www.libsdl.org/ "SDL site") is a widely used multimedia library designed for games and emulators. It communicates directly with the operating system’s audio system and is generally the most stable and compatible option.
 
     ??? Info "Reasons To Choose SDL"
         - Lower audio latency
@@ -34,7 +34,7 @@ This section will be divided into two parts  (audio settings and video settings)
         - Consistent performance
         - Often recommended
 
-    [**Qt Multimedia**](https://doc.qt.io/qt-6/qtmultimedia-index.html) is part of the Qt framework used to build mGBA’s graphical interface. It integrates smoothly with the application but may not always perform as consistently as SDL on all systems.
+    [**Qt Multimedia**](https://doc.qt.io/qt-6/qtmultimedia-index.html "Qt Multimedia docs") is part of the Qt framework used to build mGBA’s graphical interface. It integrates smoothly with the application but may not always perform as consistently as SDL on all systems.
 
     ??? Info "Reasons To Choose Qt Multimedia"
         - Works well with standard system audio settings
@@ -46,7 +46,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Affects the balance between audio responsiveness and audio stability.
 
-    ![Audio buffer](../assets/audiovideo/audiovideo-4.gif){ width="90%" }
+    ![Audio buffer](../assets/audiovideo/audiovideo-4.gif "Set the audio buffer"){ width="90%" }
 
     The **lower** the buffer size, the faster sound will respond to what happens in-game but it may cause crackling or popping if your computer can't keep up.
 
@@ -64,7 +64,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Affects how detailed and clear the audio sounds during gameplay.
 
-    ![Audio sample rate](../assets/audiovideo/audiovideo-5.gif){ width="90%" }
+    ![Audio sample rate](../assets/audiovideo/audiovideo-5.gif "Set the sample rate"){ width="90%" }
 
     The sample rate setting in mGBA determines how many times per second audio is measured and reproduced. A higher sample rate captures more detail in the sound, which can result in clearer and more accurate audio playback.
 
@@ -75,7 +75,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Controls how loud the game audio is played.
 
-    ![Audio volume](../assets/audiovideo/audiovideo-6.png){ width="90%" }
+    ![Audio volume](../assets/audiovideo/audiovideo-6.png "Set the volume"){ width="90%" }
 
     The volume slider in mGBA controls how loud the game audio is during normal gameplay. You can increase the volume to make sound effects and music louder, or decrease it for quieter playback or when multitasking.
 
@@ -86,7 +86,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Controls how audio is played when multiple games are connected.
 
-    ![Audio multiplayer](../assets/audiovideo/audiovideo-7.png){ width="90%" }
+    ![Audio multiplayer](../assets/audiovideo/audiovideo-7.png "Set multiplayer audio"){ width="90%" }
 
     The selected multiplayer sound option determines which emulator window(s) will play audio when multiple game instances are running, allowing you to choose whether sound comes from one active window or from all connected windows simultaneously.
 
@@ -99,9 +99,9 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Controls how graphics are rendered on screen.
 
-    ![Video display driver](../assets/audiovideo/audiovideo-8.gif){ width="90%" }
+    ![Video display driver](../assets/audiovideo/audiovideo-8.gif "Display driver"){ width="90%" }
 
-    [**Qt**](https://en.wikipedia.org/wiki/Qt_(software)) renders graphics using your computer’s processor instead of the graphics card. This option prioritizes compatibility over performance.
+    [**Qt**](https://en.wikipedia.org/wiki/Qt_(software) "Qt framework site") renders graphics using your computer’s processor instead of the graphics card. This option prioritizes compatibility over performance.
 
     ??? Info "Reasons To Choose Software (Qt)"
         - OpenGL causes graphical issues.  
@@ -126,7 +126,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Controls how many frames are skipped to improve performance.
 
-    ![Video frames](../assets/audiovideo/audiovideo-9.png){ width="90%" }
+    ![Video frames](../assets/audiovideo/audiovideo-9.png "Set frameksip"){ width="90%" }
 
     Frameskip in mGBA allows the emulator to skip rendering some visual frames in order to maintain smooth gameplay performance. By drawing fewer frames, the emulator reduces the workload on your computer, which can help prevent slowdowns on less powerful systems. While higher frameskip values can improve performance, they may also make motion appear less smooth or slightly choppy.
 
@@ -139,7 +139,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Controls how the game image is scaled, smoothed, and displayed on your screen.
 
-    ![Video processing](../assets/audiovideo/audiovideo-10.png){ width="90%" }
+    ![Video processing](../assets/audiovideo/audiovideo-10.png "Set processing mode"){ width="90%" }
 
     **Lock Aspect Ratio** keeps the game’s original screen proportions so the image does not appear stretched or squished.
 
@@ -173,7 +173,7 @@ This section will be divided into two parts  (audio settings and video settings)
 
     Make sure you hit **apply** to save your settings.
 
-    ![Video setting](../assets/audiovideo/audiovideo-11.png){ width="90%" }
+    ![Video setting](../assets/audiovideo/audiovideo-11.png "Apply video settings"){ width="90%" }
 
 !!! Success "Success"
     Your video settings have been configured and graphics should now display smoothly during gameplay. Some settings may require a bit of trial and error to find what works best for your system.
@@ -188,4 +188,4 @@ By finishing this section, you should know how to do the following:
     
 Wonderful :star:, now you know how to configure your audio and video settings!
     
-Go to the [next section](romhacks.md) to learn about patching ROMs.
+Go to the [next section](romhacks.md "Go to Patching ROM Hacks") to learn about patching ROMs.

@@ -11,7 +11,14 @@ This section will walk through the process of patching ROM hacks so they can be 
 !!! Warning "Warning"
     This section is going to assume you have one or many ROM files installed, or at the very least you know how to install and access a ROM file.
 
-## Auto Patching
+## Patching ROMs
+
+There are two main ways to modify ROMs with patch files:
+
+- [Auto patching](#auto-patching), which leaves the original ROM unchanged.
+- [Manual patching](#manual-patching), which leaves the modifies the ROM.
+
+### Auto Patching
 
 Auto patching (also referred to as "soft-patching") allows the emulator to apply a patch file automatically when the game is launched, while the original ROM remains unchanged.
 

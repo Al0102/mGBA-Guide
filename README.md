@@ -1,6 +1,6 @@
 # Overview of the mGBA Guide
 
-[mGBA Guide](https://al0102.github.io/mGBA-Guide/)
+Vist the [mGBA Guide](https://al0102.github.io/mGBA-Guide/).
 
 This guide takes you through the process of getting started
 with the [**mGBA**](https://mgba.io/) emulator. The goal for this is to

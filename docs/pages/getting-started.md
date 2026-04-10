@@ -10,7 +10,7 @@ It is free, open-source, and easy to install, making it a popular choice for man
 The first step is to install the emulator.  
 If you already have it, skip to [Using ROMs](#using-roms).
 
-1. **Visit** the official downloads page at [mgba.io](https://mgba.io/downloads.html).
+1. **Visit** the official downloads page at [mgba.io](https://mgba.io/downloads.html "Downloads - mGBA").
 2. **Download** a version suitable for your operating system.
     For Windows users, you will see the following options:
 
@@ -35,7 +35,7 @@ If you already have it, skip to [Using ROMs](#using-roms).
         This allows you to choose where to store it on your computer, and also lets you keep your game files with mGBA.  
 
         Many newer versions of Windows can extract 7-zip without additional setup,
-        but some systems may need a separate extractor from the [**7-zip site**](https://7-zip.link/download.html).  
+        but some systems may need a separate extractor from the [**7-zip site**](https://7-zip.link/download.html "Download - 7-zip").  
 
         !!! Warning
 
@@ -59,13 +59,13 @@ If you already have it, skip to [Using ROMs](#using-roms).
             3. **Choose** a valid location to put the files.
             4. **Click** *"Extract"*.
 
-            ![Extracting mGBA portable](../assets/getting-started/extract-1-2.gif){ width=90% }
+            ![Extracting mGBA portable](../assets/getting-started/extract-1-2.gif "Extract mGBA portable"){ width=90% }
 
         ??? Success
 
             The contents of the extracted folder should look like this.
 
-            ![mGBA portable folder](../assets/getting-started/mGBA-portable.png){ width=90% }
+            ![mGBA portable folder](../assets/getting-started/mGBA-portable.png "mGBA folder contents"){ width=90% }
 
     === "Using the installer"
 
@@ -99,7 +99,7 @@ If you already have it, skip to [Using ROMs](#using-roms).
 
     The app should look something like this once opened.
 
-    ![mGBA home screen](../assets/getting-started/homescreen.png){ width=90% }
+    ![mGBA home screen](../assets/getting-started/homescreen.png "mGBA home screen"){ width=90% }
 
 ## Using ROMs
 
@@ -124,7 +124,7 @@ The next step is to find a ROM(s) and load it with mGBA.
 
       - **Acquire** them online.
       - **Upload** them from a physical copy of the game
-      (also known as [ripping ROMs](https://wiki.provenance-emu.com/using-provenance/roms/ripping-roms#cartridge-dumping)).
+      (also known as [ripping ROMs](https://wiki.provenance-emu.com/using-provenance/roms/ripping-roms#cartridge-dumping "Ripping Roms - Wiki Provenance")).
 
     ??? Danger "Be careful when downloading ROMs online"
 
@@ -133,7 +133,7 @@ The next step is to find a ROM(s) and load it with mGBA.
         Here is a list of things to check if you decide to acquire them this way:  
 
         - **Avoid** any ROMs that come as *.exe* files, these are likely malicious programs.  
-        - **Cross-check** ROM sites with communities such as [r/Roms on Reddit](https://www.reddit.com/r/Roms/wiki/index/).  
+        - **Cross-check** ROM sites with communities such as [r/Roms on Reddit](https://www.reddit.com/r/Roms/wiki/index/ "r/Roms - Reddit").  
         - **Stay away** from any buttons or links that do not match the look of the rest of the site.  
 
 2. **Move** the ROM files to a folder of your choosing.
@@ -174,7 +174,7 @@ The next step is to find a ROM(s) and load it with mGBA.
 
             This should open the *File Explorer*.
 
-            ![Load ROM](../assets/getting-started/load-rom.png){ width=90% }
+            ![Load ROM](../assets/getting-started/load-rom.png "Load ROM button"){ width=90% }
 
             !!! Info "You can also use a shortcut for this."
             
@@ -184,7 +184,7 @@ The next step is to find a ROM(s) and load it with mGBA.
             
             In the file explorer, **navigate** to the folder from *step 2* and **click** on the ROM to select it.
 
-            ![Load ROM file](../assets/getting-started/load-rom-file.gif){ width=90% }
+            ![Load ROM file](../assets/getting-started/load-rom-file.gif "Load a ROM file"){ width=90% }
 
 
     === "Loading multiple ROMs"
@@ -195,28 +195,28 @@ The next step is to find a ROM(s) and load it with mGBA.
 
             > Tools > Settings > Interface
 
-            ![mGBA settings](../assets/general/open-settings.gif){ width="90%" }
+            ![mGBA settings](../assets/general/open-settings.gif "mGBA settings"){ width="90%" }
 
-            ![Interface settings](../assets/getting-started/interface-settings.png){ width="90%" }
+            ![Interface settings](../assets/getting-started/interface-settings.png "Interface settings"){ width="90%" }
     
         2. **Activate** the game library.
 
             Under the *Library* section, select *"Show when no game open"*
             to change the home screen into a game library. 
 
-            ![Show Library option](../assets/getting-started/show-library.gif){ width="90%" }
+            ![Show Library option](../assets/getting-started/show-library.gif "Set Show library to on"){ width="90%" }
         
         3. **Click** *"Apply"*.
 
             This will save the setting and return you to the home screen.
 
-            ![Apply settings](../assets/getting-started/apply-setting.png){ width="90%" }
+            ![Apply settings](../assets/getting-started/apply-setting.png "Apply library settings"){ width="90%" }
         
             !!! Note "Check if the setting worked!"
 
                 Your home screen should now look like this.
 
-                ![List home screen](../assets/getting-started/library-home.png){ width="50%" }
+                ![List home screen](../assets/getting-started/library-home.png "mGBA library home screen"){ width="50%" }
         
         4. **Navigate** to the *"Add folder to library..."* option.
 
@@ -224,7 +224,7 @@ The next step is to find a ROM(s) and load it with mGBA.
 
             This should open the *File Explorer*.
 
-            ![Add folder to library](../assets/getting-started/add-library.gif){ width=90% }
+            ![Add folder to library](../assets/getting-started/add-library.gif "Add folder to library button"){ width=90% }
 
             !!! Info "You can also use a shortcut for this."
             
@@ -234,7 +234,7 @@ The next step is to find a ROM(s) and load it with mGBA.
             
             In the file explorer, **navigate** to the folder from *step 2* and **click** *"Open"*.
 
-            ![Load game folder](../assets/getting-started/load-game-folder.gif){ width=90% }
+            ![Load game folder](../assets/getting-started/load-game-folder.gif "Load game folder"){ width=90% }
         
         6. **Choose** a ROM from the mGBA home screen.
 
@@ -244,7 +244,7 @@ The next step is to find a ROM(s) and load it with mGBA.
 
     Your game should now be running.  
 
-    ![Link's Awakening in mGBA](../assets/getting-started/game-loaded.png){ width=90% }
+    ![Link's Awakening in mGBA](../assets/getting-started/game-loaded.png "Loaded game"){ width=90% }
 
 
 ## Exiting a game
@@ -263,7 +263,7 @@ This section highlights the second option.
 
     > Emulation > Shutdown
 
-    ![Shutting down a game](../assets/getting-started/shutdown.png){ width=90% }
+    ![Shutting down a game](../assets/getting-started/shutdown.png "Shutdown button"){ width=90% }
 
 !!! Success
 

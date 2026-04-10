@@ -299,4 +299,4 @@ By finishing this section, you should know how to do the following:
 
 Nice job :cake:, you now know how to set up keyboards and controllers!
 
-Go to the [next section](audiovideo.md) to learn about configuring audio and video settings.
+Go to the [next section](audiovideo.md "Go to Audio/Video") to learn about configuring audio and video settings.

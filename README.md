@@ -1,5 +1,7 @@
 # Overview of the mGBA Guide
 
+(mGBA Guide)[https://al0102.github.io/mGBA-Guide/]
+
 This guide takes you through the process of getting started
 with the [**mGBA**](https://mgba.io/) emulator. The goal for this is to
 take you through the basics of setting up games with mGBA

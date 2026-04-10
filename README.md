@@ -108,7 +108,7 @@ improved your experience with setting up mGBA.
 
 This guide was built using: [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
-Authors:  
+**Authors:**  
 
 - [Alex Lu](https://github.com/Al0102)
 - [Harlan Bullock](https://github.com/moxharley)

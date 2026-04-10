@@ -15,8 +15,8 @@ This section will walk through the process of patching ROM hacks so they can be 
 
 There are two main ways to modify ROMs with patch files:
 
-- [Auto patching](#auto-patching), which leaves the original ROM unchanged.
-- [Manual patching](#manual-patching), which leaves the modifies the ROM.
+- [Auto patching](#auto-patching), which leaves the original ROM unchanged.  
+- [Manual patching](#manual-patching), which leaves the modifies the ROM.  
 
 ### Auto Patching
 

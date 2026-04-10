@@ -44,13 +44,14 @@ This guide assumes an understanding of:
 
 These are the main ideas this guide goes over:
 
-- [Getting started](pages/getting-started.md)
+- [Getting started](pages/getting-started.md)  
     - Goes over installing mGBA and loading game ROMs.
-- [Configuring controls](pages/configuring-controls.md)
-    - Goes over customizing controls and shortcuts with keyboard/controller.
-- [Configuring audio and video](pages/audiovideo.md)
-    - Goes over common audio/video settings and setting up drivers for each.
-- [Patching ROM hacks](pages/romhacks.md)
+- [Configuring controls](pages/configuring-controls.md)  
+    - Goes over customizing controls and shortcuts with keyboard/controller.  
+- [Configuring audio and video](pages/audiovideo.md)  
+    - Goes over common audio/video settings and setting up drivers for each.  
+- [Patching ROM hacks](pages/romhacks.md)  
+    - Goes over how to manually/automatically patch ROM hacks  
 
 ## Typographical conventions  
 

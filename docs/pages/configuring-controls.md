@@ -7,8 +7,10 @@ from editing the keybinds to creating shortcuts for easier inputs.
 
 ## Editing keybinds
 
-mGBA is compatible with keyboard controls as well as most wired/wireless game controllers.  
-The following steps outline how to customize the keybinds for both types of input.
+mGBA is compatible with input via either of the following:
+
+- [Keyboard](#binding-the-keyboard).  
+- [Most wired/wireless game controllers](#binding-a-gamepadcontroller).  
 
 !!! Info "Using the keybind editor"
 

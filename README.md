@@ -52,7 +52,7 @@ Although we had learned Markdown in the past, neither of us
 have written any extensive documentation. We learned common
 practices and how to style documents from our COMM 2116
 Business Communications 2 course, as well as by referencing
-[https://squidfunk.github.io/mkdocs-material/getting-started/]
+[the Material for MkDocs guide](https://squidfunk.github.io/mkdocs-material/getting-started/)
 and other existing documentation.
 
 ## GitHub Pages

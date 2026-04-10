@@ -592,8 +592,8 @@
 <blockquote>
 <p>Tools &gt; Settings &gt; Audio/Video</p>
 </blockquote>
-<p><img alt="mGBA settings" src="../../assets/general/open-settings.gif" width="90%" /></p>
-<p><img alt="mGBA audio/video settings" src="../../assets/audiovideo/audiovideo-2.png" width="90%" /></p>
+<p><img alt="mGBA settings" src="../../assets/general/open-settings.gif" title="Open mGBA settings" width="90%" /></p>
+<p><img alt="mGBA audio/video settings" src="../../assets/audiovideo/audiovideo-2.png" title="Open Audio/Video settings" width="90%" /></p>
 </li>
 </ol>
 <h3 id="audio-settings">Audio Settings</h3>
@@ -601,8 +601,8 @@
 <li>
 <p><strong>Choose</strong> an audio driver.</p>
 <p>Affects audio compatibility, latency, and playback stability.</p>
-<p><img alt="audio settings" src="../../assets/audiovideo/audiovideo-3.gif" width="90%" /></p>
-<p><a href="https://www.libsdl.org/"><strong>SDL</strong></a> is a widely used multimedia library designed for games and emulators. It communicates directly with the operating system’s audio system and is generally the most stable and compatible option.</p>
+<p><img alt="audio settings" src="../../assets/audiovideo/audiovideo-3.gif" title="Audio settings" width="90%" /></p>
+<p><a href="https://www.libsdl.org/" title="SDL site"><strong>SDL</strong></a> is a widely used multimedia library designed for games and emulators. It communicates directly with the operating system’s audio system and is generally the most stable and compatible option.</p>
 <details class="info">
 <summary>Reasons To Choose SDL</summary>
 <ul>
@@ -612,7 +612,7 @@
 <li>Often recommended</li>
 </ul>
 </details>
-<p><a href="https://doc.qt.io/qt-6/qtmultimedia-index.html"><strong>Qt Multimedia</strong></a> is part of the Qt framework used to build mGBA’s graphical interface. It integrates smoothly with the application but may not always perform as consistently as SDL on all systems.</p>
+<p><a href="https://doc.qt.io/qt-6/qtmultimedia-index.html" title="Qt Multimedia docs"><strong>Qt Multimedia</strong></a> is part of the Qt framework used to build mGBA’s graphical interface. It integrates smoothly with the application but may not always perform as consistently as SDL on all systems.</p>
 <details class="info">
 <summary>Reasons To Choose Qt Multimedia</summary>
 <ul>
@@ -626,7 +626,7 @@
 <li>
 <p><strong>Adjust</strong> audio buffer.</p>
 <p>Affects the balance between audio responsiveness and audio stability.</p>
-<p><img alt="Audio buffer" src="../../assets/audiovideo/audiovideo-4.gif" width="90%" /></p>
+<p><img alt="Audio buffer" src="../../assets/audiovideo/audiovideo-4.gif" title="Set the audio buffer" width="90%" /></p>
 <p>The <strong>lower</strong> the buffer size, the faster sound will respond to what happens in-game but it may cause crackling or popping if your computer can't keep up.</p>
 <details class="info">
 <summary>Reasons To Choose A Lower Buffer Size</summary>
@@ -647,7 +647,7 @@
 <li>
 <p><strong>Adjust</strong> sample rate.</p>
 <p>Affects how detailed and clear the audio sounds during gameplay.</p>
-<p><img alt="Audio sample rate" src="../../assets/audiovideo/audiovideo-5.gif" width="90%" /></p>
+<p><img alt="Audio sample rate" src="../../assets/audiovideo/audiovideo-5.gif" title="Set the sample rate" width="90%" /></p>
 <p>The sample rate setting in mGBA determines how many times per second audio is measured and reproduced. A higher sample rate captures more detail in the sound, which can result in clearer and more accurate audio playback.</p>
 <details class="info">
 <summary>Recommended Sample Rate</summary>
@@ -657,7 +657,7 @@
 <li>
 <p><strong>Adjust</strong> volume levels.</p>
 <p>Controls how loud the game audio is played.</p>
-<p><img alt="Audio volume" src="../../assets/audiovideo/audiovideo-6.png" width="90%" /></p>
+<p><img alt="Audio volume" src="../../assets/audiovideo/audiovideo-6.png" title="Set the volume" width="90%" /></p>
 <p>The volume slider in mGBA controls how loud the game audio is during normal gameplay. You can increase the volume to make sound effects and music louder, or decrease it for quieter playback or when multitasking.</p>
 <div class="admonition check">
 <p class="admonition-title">Fast Forward Volume</p>
@@ -667,7 +667,7 @@
 <li>
 <p><strong>Define</strong> multiplayer audio settings.</p>
 <p>Controls how audio is played when multiple games are connected.</p>
-<p><img alt="Audio multiplayer" src="../../assets/audiovideo/audiovideo-7.png" width="90%" /></p>
+<p><img alt="Audio multiplayer" src="../../assets/audiovideo/audiovideo-7.png" title="Set multiplayer audio" width="90%" /></p>
 <p>The selected multiplayer sound option determines which emulator window(s) will play audio when multiple game instances are running, allowing you to choose whether sound comes from one active window or from all connected windows simultaneously.</p>
 </li>
 </ol>
@@ -680,8 +680,8 @@
 <li>
 <p><strong>Choose</strong> a display driver.</p>
 <p>Controls how graphics are rendered on screen.</p>
-<p><img alt="Video display driver" src="../../assets/audiovideo/audiovideo-8.gif" width="90%" /></p>
-<p><a href="https://en.wikipedia.org/wiki/Qt_(software)"><strong>Qt</strong></a> renders graphics using your computer’s processor instead of the graphics card. This option prioritizes compatibility over performance.</p>
+<p><img alt="Video display driver" src="../../assets/audiovideo/audiovideo-8.gif" title="Display driver" width="90%" /></p>
+<p><a href="https://en.wikipedia.org/wiki/Qt_(software)" title="Qt framework site"><strong>Qt</strong></a> renders graphics using your computer’s processor instead of the graphics card. This option prioritizes compatibility over performance.</p>
 <details class="info">
 <summary>Reasons To Choose Software (Qt)</summary>
 <ul>
@@ -712,7 +712,7 @@
 <li>
 <p><strong>Adjust</strong> frameskip.</p>
 <p>Controls how many frames are skipped to improve performance.</p>
-<p><img alt="Video frames" src="../../assets/audiovideo/audiovideo-9.png" width="90%" /></p>
+<p><img alt="Video frames" src="../../assets/audiovideo/audiovideo-9.png" title="Set frameksip" width="90%" /></p>
 <p>Frameskip in mGBA allows the emulator to skip rendering some visual frames in order to maintain smooth gameplay performance. By drawing fewer frames, the emulator reduces the workload on your computer, which can help prevent slowdowns on less powerful systems. While higher frameskip values can improve performance, they may also make motion appear less smooth or slightly choppy.</p>
 <details class="info">
 <summary>Recommended Frameskip</summary>
@@ -726,7 +726,7 @@
 <li>
 <p><strong>Set</strong> video scaling and image processing.</p>
 <p>Controls how the game image is scaled, smoothed, and displayed on your screen.</p>
-<p><img alt="Video processing" src="../../assets/audiovideo/audiovideo-10.png" width="90%" /></p>
+<p><img alt="Video processing" src="../../assets/audiovideo/audiovideo-10.png" title="Set processing mode" width="90%" /></p>
 <p><strong>Lock Aspect Ratio</strong> keeps the game’s original screen proportions so the image does not appear stretched or squished.</p>
 <details class="info">
 <summary>Reasons To Lock Aspect Ratio</summary>
@@ -768,7 +768,7 @@
 <details class="note">
 <summary>Saving Your Settings</summary>
 <p>Make sure you hit <strong>apply</strong> to save your settings.</p>
-<p><img alt="Video setting" src="../../assets/audiovideo/audiovideo-11.png" width="90%" /></p>
+<p><img alt="Video setting" src="../../assets/audiovideo/audiovideo-11.png" title="Apply video settings" width="90%" /></p>
 </details>
 <div class="admonition success">
 <p class="admonition-title">Success</p>
@@ -782,7 +782,7 @@
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Configure the appropriate video settings for your device.  </li>
 </ul>
 <p>Wonderful <img alt="⭐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2b50.svg" title=":star:" />, now you know how to configure your audio and video settings!</p>
-<p>Go to the <a href="../romhacks/">next section</a> to learn about patching ROMs.</p>
+<p>Go to the <a href="../romhacks/" title="Go to Patching ROM Hacks">next section</a> to learn about patching ROMs.</p>
 
 
 

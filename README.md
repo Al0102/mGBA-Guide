@@ -107,3 +107,9 @@ We appreciate you taking the time to read this and hope that we
 improved your experience with setting up mGBA.
 
 This guide was built using: [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+
+Authors:  
+
+- [Alex Lu](https://github.com/Al0102)
+- [Harlan Bullock](https://github.com/moxharley)
+
